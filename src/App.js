@@ -1,40 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { saveAs } from "file-saver";
-import { useAnimationFrame } from "./hooks/useAnimationFrame";
-
-const cellSize = 50;
-const width = 600;
-const height = 600;
-const svgWidth = width;
-const svgHeight = height;
+import { useInterval } from "./hooks/useInterval";
 
 export default () => {
-  const [gridData, setDataGrid] = React.useState(
-    getGridData({ cellSize, width, height })
-  );
-  const [centepedePaths, setCentepedePaths] = React.useState(
-    getCentipedePath(gridData)
-  );
-  const [count, setCount] = React.useState(0);
+  const [doTimer, setDoTimer] = useState(false);
+  const [strokeColour, setStrokeColour] = useState("#ccc");
+  const cellSize = 50;
+  const width = 600;
+  const height = 600;
+  const svgWidth = width;
+  const svgHeight = height;
 
-  // useAnimationFrame((deltaTime) => {
-  //   // Pass on a function to the setter of the state
-  //   // to make sure we always have the latest state
-  //   setCount((prevCount) => prevCount + 1);
-  //   regenerate();
-  // });
+  useInterval(() => {
+    if (doTimer) {
+      regenerate();
+    }
+  }, 200);
 
   const regenerate = () => {
-    const freshGrid = getGridData({ cellSize, width, height });
-    setDataGrid(freshGrid);
-    setCentepedePaths(getCentipedePath(freshGrid));
+    setStrokeColour((prev) => (prev === "#ccc" ? "#cccccd" : "#ccc"));
   };
+
+  const gridData = getGridData({ cellSize, width, height });
+  const centepedePaths = getCentipedePath(gridData);
 
   return (
     <div>
-      {count}
       <button onClick={save_as_svg}>Save SVG</button>
       <button onClick={regenerate}>Regenerate</button>
+      <button onClick={() => setDoTimer((prev) => !prev)}>Timer</button>
       <svg
         id="svg"
         xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +36,7 @@ export default () => {
         width={svgWidth}
         height={svgHeight}
         fill={"none"}
-        stroke={"black"}
+        stroke={"red"}
         strokeWidth={2}
       >
         {gridData.map((cell, index) => (
@@ -52,7 +46,7 @@ export default () => {
             y={cell.y}
             width={cellSize}
             height={cellSize}
-            stroke="red"
+            stroke={strokeColour}
           />
         ))}
 
@@ -75,22 +69,20 @@ const getCentipedePath = (cells) => {
 
     if (randomNeighBourOption === null) {
       endReached = true;
-      break;
-    } else {
-      const option = randomNeighBourOption[0];
-      cell.endedOn = option;
-      nextCellIndex = randomNeighBourOption[1];
-
-      const segment = drawCurrCellPath({
-        cell,
-        option,
-        prevCellEndedOn,
-      });
-
-      paths.push(segment);
-
-      prevCellEndedOn = option;
     }
+    const option = randomNeighBourOption ? randomNeighBourOption[0] : null;
+    cell.endedOn = option;
+    nextCellIndex = randomNeighBourOption ? randomNeighBourOption[1] : null;
+
+    const segment = drawCurrCellPath({
+      cell,
+      option,
+      prevCellEndedOn,
+    });
+
+    paths.push(segment);
+
+    prevCellEndedOn = option;
 
     count++;
   }
@@ -106,25 +98,25 @@ const getAvailableNeighbourOptions = (cell, cells) => {
   if (indexAbove >= 0 && !cells[indexAbove].endedOn) {
     possOptions.push(["top", indexAbove]);
   } else {
-    // console.log("GET NEIGHBOUR", "top", indexAbove, cells[indexAbove]);
+    console.log("GET NEIGHBOUR", "top", indexAbove, cells[indexAbove], cell);
   }
 
   if (indexBelow >= 0 && !cells[indexBelow].endedOn) {
     possOptions.push(["bottom", indexBelow]);
   } else {
-    // console.log("GET NEIGHBOUR", "bottom", indexBelow, cells[indexBelow]);
+    console.log("GET NEIGHBOUR", "bottom", indexBelow, cells[indexBelow], cell);
   }
 
   if (indexLeft >= 0 && !cells[indexLeft].endedOn) {
     possOptions.push(["left", indexLeft]);
   } else {
-    // console.log("GET NEIGHBOUR", "left", indexLeft, cells[indexLeft]);
+    console.log("GET NEIGHBOUR", "left", indexLeft, cells[indexLeft], cell);
   }
 
   if (indexRight >= 0 && !cells[indexRight].endedOn) {
     possOptions.push(["right", indexRight]);
   } else {
-    // console.log("GET NEIGHBOUR", "right", indexRight, cells[indexRight]);
+    console.log("GET NEIGHBOUR", "right", indexRight, cells[indexRight], cell);
   }
 
   if (possOptions.length === 0) return null;
@@ -138,14 +130,12 @@ const getAvailableNeighbourOptions = (cell, cells) => {
 
 const drawCurrCellPath = ({ cell, option, prevCellEndedOn }) => {
   let path;
-  if (!option) return null;
 
   // HEAD SEGMENT
   if (!prevCellEndedOn) {
     if (option === "right") {
       path = drawStartToRight(cell);
     }
-
     if (option === "left") {
       path = drawStartToLeft(cell);
     }
@@ -155,8 +145,25 @@ const drawCurrCellPath = ({ cell, option, prevCellEndedOn }) => {
     if (option === "top") {
       path = drawStartToTop(cell);
     }
-
     return drawHead(cell, path, cell.index);
+  }
+
+  // TAIL SEGMENT
+  if (!option) {
+    console.log("ENDED: ", prevCellEndedOn);
+    if (prevCellEndedOn === "right") {
+      path = drawEndFromLeft(cell);
+    }
+    if (prevCellEndedOn === "left") {
+      path = drawEndFromRight(cell);
+    }
+    if (prevCellEndedOn === "bottom") {
+      path = drawEndFromTop(cell);
+    }
+    if (prevCellEndedOn === "top") {
+      path = drawEndFromBottom(cell);
+    }
+    return drawTail(cell, path, cell.index);
   }
 
   // MIDDLE SEGMENTS
@@ -263,6 +270,21 @@ const drawStartToBottom = (cell) => {
 // ENDS
 const drawEndFromTop = (cell) => {
   let p = `M ${cell.topMiddle} `;
+  p += ` L ${cell.middleMiddle} `;
+  return p;
+};
+const drawEndFromLeft = (cell) => {
+  let p = `M ${cell.leftMiddle} `;
+  p += ` L ${cell.middleMiddle} `;
+  return p;
+};
+const drawEndFromRight = (cell) => {
+  let p = `M ${cell.rightMiddle} `;
+  p += ` L ${cell.middleMiddle} `;
+  return p;
+};
+const drawEndFromBottom = (cell) => {
+  let p = `M ${cell.bottomMiddle} `;
   p += ` L ${cell.middleMiddle} `;
   return p;
 };
