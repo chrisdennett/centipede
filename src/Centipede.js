@@ -403,9 +403,9 @@ const getCornerSegment = ({ start, end, cpt1, cpt2, key, showLegs = true }) => {
   quad += ` ${cpt2.x},${cpt2.y} `;
   quad += ` ${end.x},${end.y} `;
 
-  const leg1Base = getPointOnCurve({ dist: 0.25, start, end, cpt1, cpt2 });
+  const leg1Base = getPointOnCurve({ dist: 0.165, start, end, cpt1, cpt2 });
   const leg2Base = getPointOnCurve({ dist: 0.5, start, end, cpt1, cpt2 });
-  const leg3Base = getPointOnCurve({ dist: 0.75, start, end, cpt1, cpt2 });
+  const leg3Base = getPointOnCurve({ dist: 0.835, start, end, cpt1, cpt2 });
 
   return (
     <g key={key}>
@@ -426,11 +426,9 @@ const getStraightSegment = ({ start, end, key: index, showLegs = true }) => {
   let p = `M ${start.x},${start.y} `;
   p += ` L ${end.x},${end.y} `;
 
-  const leg1Base = getPointOnStraight({ dist: 0.25, start, end });
+  const leg1Base = getPointOnStraight({ dist: 0.165, start, end });
   const leg2Base = getPointOnStraight({ dist: 0.5, start, end });
-  const leg3Base = getPointOnStraight({ dist: 0.75, start, end });
-
-  console.log("leg1Base: ", leg1Base);
+  const leg3Base = getPointOnStraight({ dist: 0.835, start, end });
 
   return (
     <g key={index}>
