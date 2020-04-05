@@ -31,7 +31,7 @@ const createTestSegments = (cells) => {
   cellParts.push(drawSegment({ cell: cells[37], from: "left", to: "right" }));
   cellParts.push(drawSegment({ cell: cells[38], from: "left", to: "top" }));
   cellParts.push(drawSegment({ cell: cells[28], from: "bottom", to: "left" }));
-  cellParts.push(drawSegment({ cell: cells[27], from: "left", to: "right" }));
+  cellParts.push(drawSegment({ cell: cells[27], from: "right", to: "left" }));
   cellParts.push(drawSegment({ cell: cells[26], from: "right", to: "top" }));
   cellParts.push(drawSegment({ cell: cells[16], from: "bottom", to: "left" }));
   cellParts.push(drawSegment({ cell: cells[15], from: "right", to: "bottom" }));
@@ -152,9 +152,11 @@ const drawSegment = ({ cell, from, to }) => {
 
 // From LEFT
 const drawLeftToRight = (cell) => {
-  let p = `M ${cell.leftMiddle} `;
-  p += ` L ${cell.rightMiddle} `;
-  return <path d={p} key={cell.index} />;
+  const { index, middleY, rightX, x } = cell;
+  const start = { x: x, y: middleY };
+  const end = { x: rightX, y: middleY };
+
+  return getStraightSegment({ start, end, key: index });
 };
 const drawLeftToBottom = (cell) => {
   const { x, middleY, middleX, bottomY, thirdX, twoThirdY } = cell;
@@ -185,9 +187,11 @@ const drawLeftToTop = (cell) => {
 
 // FROM TOP
 const drawTopToBottom = (cell) => {
-  let p = `M ${cell.topMiddle} `;
-  p += ` L ${cell.bottomMiddle} `;
-  return <path d={p} key={cell.index} />;
+  const { index, y, middleX, bottomY } = cell;
+  const start = { x: middleX, y: y };
+  const end = { x: middleX, y: bottomY };
+
+  return getStraightSegment({ start, end, key: index });
 };
 const drawTopToLeft = (cell) => {
   const { x, y, middleY, middleX, thirdX, thirdY } = cell;
@@ -240,9 +244,11 @@ const drawRightToBottom = (cell) => {
   });
 };
 const drawRightToLeft = (cell) => {
-  let p = `M ${cell.rightMiddle} `;
-  p += ` L ${cell.leftMiddle} `;
-  return <path d={p} key={cell.index} />;
+  const { index, middleY, rightX, x } = cell;
+  const start = { x: rightX, y: middleY };
+  const end = { x: x, y: middleY };
+
+  return getStraightSegment({ start, end, key: index });
 };
 const drawRightToTop = (cell) => {
   const { y, middleY, middleX, thirdY, twoThirdX, rightX } = cell;
@@ -289,9 +295,11 @@ const drawBottomToLeft = (cell) => {
   return getCornerSegment({ start, cpt1, cpt2, end, key: cell.index });
 };
 const drawBottomToTop = (cell) => {
-  let p = `M ${cell.bottomMiddle} `;
-  p += ` L ${cell.topMiddle} `;
-  return <path d={p} key={cell.index} />;
+  const { index, y, middleX, bottomY } = cell;
+  const start = { x: middleX, y: bottomY };
+  const end = { x: middleX, y: y };
+
+  return getStraightSegment({ start, end, key: index });
 };
 
 // STARTS
@@ -387,25 +395,8 @@ const drawBottomToEnd = (cell) => {
 };
 
 //
-// HELPERS
+// KEY SEGMENT METHODS
 //
-const getPointOnCurve = ({ dist = 0.5, start, end, cpt1, cpt2 }) => {
-  const p0 = lerp(start, cpt1, dist);
-  const p1 = lerp(cpt1, cpt2, dist);
-  const p2 = lerp(cpt2, end, dist);
-  const p3 = lerp(p0, p1, dist);
-  const p4 = lerp(p1, p2, dist);
-
-  return lerp(p3, p4, dist);
-};
-
-const lerp = (ptA, ptB, dist) => {
-  return {
-    x: (ptB.x - ptA.x) * dist + ptA.x, // the x coordinate
-    y: (ptB.y - ptA.y) * dist + ptA.y, // the y coordinate
-  };
-};
-
 const getCornerSegment = ({ start, end, cpt1, cpt2, key, showLegs = true }) => {
   let quad = `M ${start.x},${start.y} `;
   quad += `C ${cpt1.x},${cpt1.y} `;
@@ -431,7 +422,63 @@ const getCornerSegment = ({ start, end, cpt1, cpt2, key, showLegs = true }) => {
   );
 };
 
+const getStraightSegment = ({ start, end, key: index, showLegs = true }) => {
+  let p = `M ${start.x},${start.y} `;
+  p += ` L ${end.x},${end.y} `;
+
+  const leg1Base = getPointOnStraight({ dist: 0.25, start, end });
+  const leg2Base = getPointOnStraight({ dist: 0.5, start, end });
+  const leg3Base = getPointOnStraight({ dist: 0.75, start, end });
+
+  console.log("leg1Base: ", leg1Base);
+
+  return (
+    <g key={index}>
+      <path d={p} />
+      {showLegs && (
+        <>
+          <circle cx={leg1Base.x} cy={leg1Base.y} r={3} />
+          <circle cx={leg2Base.x} cy={leg2Base.y} r={3} />
+          <circle cx={leg3Base.x} cy={leg3Base.y} r={3} />
+        </>
+      )}
+    </g>
+  );
+};
+
+//
+// HELPERS
+//
+const getPointOnStraight = ({ dist, start, end }) => {
+  const diffX = Math.abs(end.x - start.x);
+  const diffY = Math.abs(end.y - start.y);
+
+  const lowestX = Math.min(start.x, end.x);
+  const lowestY = Math.min(start.y, end.y);
+
+  return {
+    x: lowestX + diffX * dist,
+    y: lowestY + diffY * dist,
+  };
+};
+
+const getPointOnCurve = ({ dist = 0.5, start, end, cpt1, cpt2 }) => {
+  const p0 = lerp(start, cpt1, dist);
+  const p1 = lerp(cpt1, cpt2, dist);
+  const p2 = lerp(cpt2, end, dist);
+  const p3 = lerp(p0, p1, dist);
+  const p4 = lerp(p1, p2, dist);
+
+  return lerp(p3, p4, dist);
+};
+
+const lerp = (ptA, ptB, dist) => {
+  return {
+    x: (ptB.x - ptA.x) * dist + ptA.x, // the x coordinate
+    y: (ptB.y - ptA.y) * dist + ptA.y, // the y coordinate
+  };
+};
+
 const getRandomIntBetween = (min, max) => {
-  // return Math.round(min + (max - min) * Math.random());
   return Math.round(Math.random() * max);
 };
