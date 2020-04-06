@@ -320,90 +320,179 @@ const drawBottomToTop = (cell) => {
 const drawStartToRight = (cell) => {
   let p = `M ${cell.middleMiddle} `;
   p += ` L ${cell.rightMiddle} `;
+
+  const { middleX, middleY, rightX } = cell;
+  const start = { x: middleX, y: middleY };
+  const end = { x: rightX, y: middleY };
+  const leg1Base = getPointOnStraight({ dist: 0.165 + 0.5, start, end });
+
   return (
     <g key={cell.index}>
       <path d={p} />
       <circle cx={cell.middleX} cy={cell.middleY} r={10} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
+      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${0})`}>
+        <circle cx={0} cy={0} r={3} />
+        <line x1={0} y1={0} x2={0} y2={15} />
+        <line x1={0} y1={0} x2={0} y2={-15} />
+      </g>
     </g>
   );
 };
 const drawStartToLeft = (cell) => {
   let p = `M ${cell.middleMiddle} `;
   p += ` L ${cell.leftMiddle} `;
+
+  const { middleX, middleY, x } = cell;
+  const start = { x: middleX, y: middleY };
+  const end = { x: x, y: middleY };
+  const leg1Base = getPointOnStraight({ dist: 0.165 * 2, start, end });
+
   return (
     <g key={cell.index}>
       <path d={p} />
       <circle cx={cell.middleX} cy={cell.middleY} r={10} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
+      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${0})`}>
+        <circle cx={0} cy={0} r={3} />
+        <line x1={0} y1={0} x2={0} y2={15} />
+        <line x1={0} y1={0} x2={0} y2={-15} />
+      </g>
     </g>
   );
 };
 const drawStartToTop = (cell) => {
   let p = `M ${cell.middleMiddle} `;
   p += ` L ${cell.topMiddle} `;
+
+  const { middleX, middleY, y } = cell;
+  const start = { x: middleX, y: middleY };
+  const end = { x: middleX, y: y };
+  const leg1Base = getPointOnStraight({ dist: 0.165 * 2, start, end });
+
   return (
     <g key={cell.index}>
       <path d={p} />
       <circle cx={cell.middleX} cy={cell.middleY} r={10} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
+      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${90})`}>
+        <circle cx={0} cy={0} r={3} />
+        <line x1={0} y1={0} x2={0} y2={15} />
+        <line x1={0} y1={0} x2={0} y2={-15} />
+      </g>
     </g>
   );
 };
 const drawStartToBottom = (cell) => {
   let p = `M ${cell.middleMiddle} `;
   p += ` L ${cell.bottomMiddle} `;
+
+  const { middleX, middleY, bottomY } = cell;
+  const start = { x: middleX, y: middleY };
+  const end = { x: middleX, y: bottomY };
+  const leg1Base = getPointOnStraight({ dist: 0.165 + 0.5, start, end });
+
   return (
     <g key={cell.index}>
       <path d={p} />
       <circle cx={cell.middleX} cy={cell.middleY} r={10} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
+      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${90})`}>
+        <circle cx={0} cy={0} r={3} />
+        <line x1={0} y1={0} x2={0} y2={15} />
+        <line x1={0} y1={0} x2={0} y2={-15} />
+      </g>
     </g>
   );
 };
 
 // ENDS
 const drawTopToEnd = (cell) => {
-  let p = `M ${cell.topMiddle} `;
-  p += ` L ${cell.middleMiddle} `;
+  const { y, middleX, middleY, topMiddle, middleMiddle } = cell;
+
+  let p = `M ${topMiddle} `;
+  p += ` L ${middleMiddle} `;
+
+  const start = { x: middleX, y: y };
+  const end = { x: middleX, y: middleY };
+  const leg1Base = getPointOnStraight({ dist: 0.165 * 2, start, end });
+
   return (
     <g key={cell.index}>
       <path d={p} />,
       <circle cx={cell.middleX} cy={cell.middleY} r={5} />,
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
+      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${90})`}>
+        <circle cx={0} cy={0} r={3} />
+        <line x1={0} y1={0} x2={0} y2={15} />
+        <line x1={0} y1={0} x2={0} y2={-15} />
+      </g>
     </g>
   );
 };
 const drawLeftToEnd = (cell) => {
   let p = `M ${cell.leftMiddle} `;
   p += ` L ${cell.middleMiddle} `;
+
+  const { middleX, middleY, x } = cell;
+  const start = { x: x, y: middleY };
+  const end = { x: middleX, y: middleY };
+  const leg1Base = getPointOnStraight({ dist: 0.165 * 2, start, end });
+
   return (
     <g key={cell.index}>
       <path d={p} />,
-      <circle cx={cell.middleX} cy={cell.middleY} r={5} />,
+      <circle cx={cell.middleX} cy={cell.middleY} r={5} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
+      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${0})`}>
+        <circle cx={0} cy={0} r={3} />
+        <line x1={0} y1={0} x2={0} y2={15} />
+        <line x1={0} y1={0} x2={0} y2={-15} />
+      </g>
     </g>
   );
 };
 const drawRightToEnd = (cell) => {
   let p = `M ${cell.rightMiddle} `;
   p += ` L ${cell.middleMiddle} `;
+
+  const { middleX, middleY, rightX } = cell;
+  const start = { x: rightX, y: middleY };
+  const end = { x: middleX, y: middleY };
+  const leg1Base = getPointOnStraight({ dist: 0.165 + 0.5, start, end });
+
   return (
     <g key={cell.index}>
       <path d={p} />,
-      <circle cx={cell.middleX} cy={cell.middleY} r={5} />,
+      <circle cx={cell.middleX} cy={cell.middleY} r={5} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
+      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${0})`}>
+        <circle cx={0} cy={0} r={3} />
+        <line x1={0} y1={0} x2={0} y2={15} />
+        <line x1={0} y1={0} x2={0} y2={-15} />
+      </g>
     </g>
   );
 };
 const drawBottomToEnd = (cell) => {
   let p = `M ${cell.bottomMiddle} `;
   p += ` L ${cell.middleMiddle} `;
+
+  const { middleX, middleY, bottomY } = cell;
+  const start = { x: middleX, y: bottomY };
+  const end = { x: middleX, y: middleY };
+  const leg1Base = getPointOnStraight({ dist: 0.165 + 0.5, start, end });
+
   return (
     <g key={cell.index}>
       <path d={p} />,
       <circle cx={cell.middleX} cy={cell.middleY} r={5} />,
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
+      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${90})`}>
+        <circle cx={0} cy={0} r={3} />
+        <line x1={0} y1={0} x2={0} y2={15} />
+        <line x1={0} y1={0} x2={0} y2={-15} />
+      </g>
     </g>
   );
 };
@@ -482,24 +571,24 @@ const getStraightSegment = ({
       <path d={p} />
       {showLegs && (
         <>
-          <circle cx={leg1Base.x} cy={leg1Base.y} r={3} />
-          <circle cx={leg2Base.x} cy={leg2Base.y} r={3} />
-          <circle cx={leg3Base.x} cy={leg3Base.y} r={3} />
           <g
             transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${angles[0]})`}
           >
+            <circle cx={0} cy={0} r={3} />
             <line x1={0} y1={0} x2={0} y2={15} />
             <line x1={0} y1={0} x2={0} y2={-15} />
           </g>
           <g
             transform={`translate(${leg2Base.x}, ${leg2Base.y}) rotate(${angles[1]})`}
           >
+            <circle cx={0} cy={0} r={3} />
             <line x1={0} y1={0} x2={0} y2={15} />
             <line x1={0} y1={0} x2={0} y2={-15} />
           </g>
           <g
             transform={`translate(${leg3Base.x}, ${leg3Base.y}) rotate(${angles[2]})`}
           >
+            <circle cx={0} cy={0} r={3} />
             <line x1={0} y1={0} x2={0} y2={15} />
             <line x1={0} y1={0} x2={0} y2={-15} />
           </g>

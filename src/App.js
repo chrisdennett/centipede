@@ -5,7 +5,7 @@ import Centipede from "./Centipede";
 
 export default () => {
   const [doTimer, setDoTimer] = useState(false);
-  const [inTestMode, setInTestMode] = useState(true);
+  const [inTestMode, setInTestMode] = useState(false);
   const [strokeColour, setStrokeColour] = useState("#ccc");
   const cellSize = 50;
   const width = 500;
