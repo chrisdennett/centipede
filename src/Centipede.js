@@ -185,6 +185,7 @@ const drawLeftToTop = (cell) => {
     end,
     angles,
     key: cell.index,
+    legDir: -1,
   });
 };
 
@@ -230,6 +231,7 @@ const drawTopToRight = (cell) => {
     end,
     angles,
     key: cell.index,
+    legDir: -1,
   });
 };
 
@@ -250,6 +252,7 @@ const drawRightToBottom = (cell) => {
     end,
     angles,
     key: cell.index,
+    legDir: -1,
   });
 };
 const drawRightToLeft = (cell) => {
@@ -257,7 +260,13 @@ const drawRightToLeft = (cell) => {
   const start = { x: rightX, y: middleY };
   const end = { x: x, y: middleY };
 
-  return getStraightSegment({ start, end, key: index, angles: [0, 0, 0] });
+  return getStraightSegment({
+    start,
+    end,
+    key: index,
+    angles: [0, 0, 0],
+    legDir: -1,
+  });
 };
 const drawRightToTop = (cell) => {
   const { y, middleY, middleX, thirdY, twoThirdX, rightX } = cell;
@@ -306,14 +315,28 @@ const drawBottomToLeft = (cell) => {
   const end = { x: x, y: middleY };
   const angles = [60, 45, 15];
 
-  return getCornerSegment({ start, cpt1, cpt2, end, angles, key: cell.index });
+  return getCornerSegment({
+    start,
+    cpt1,
+    cpt2,
+    end,
+    angles,
+    key: cell.index,
+    legDir: -1,
+  });
 };
 const drawBottomToTop = (cell) => {
   const { index, y, middleX, bottomY } = cell;
   const start = { x: middleX, y: bottomY };
   const end = { x: middleX, y: y };
 
-  return getStraightSegment({ start, end, key: index, angles: [90, 90, 90] });
+  return getStraightSegment({
+    start,
+    end,
+    key: index,
+    angles: [90, 90, 90],
+    legDir: -1,
+  });
 };
 
 // STARTS
@@ -331,11 +354,7 @@ const drawStartToRight = (cell) => {
       <path d={p} />
       <circle cx={cell.middleX} cy={cell.middleY} r={10} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
-      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${0})`}>
-        <circle cx={0} cy={0} r={3} />
-        <line x1={0} y1={0} x2={0} y2={15} />
-        <line x1={0} y1={0} x2={0} y2={-15} />
-      </g>
+      <LegPair x={leg1Base.x} y={leg1Base.y} angle={0} />
     </g>
   );
 };
@@ -353,11 +372,7 @@ const drawStartToLeft = (cell) => {
       <path d={p} />
       <circle cx={cell.middleX} cy={cell.middleY} r={10} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
-      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${0})`}>
-        <circle cx={0} cy={0} r={3} />
-        <line x1={0} y1={0} x2={0} y2={15} />
-        <line x1={0} y1={0} x2={0} y2={-15} />
-      </g>
+      <LegPair x={leg1Base.x} y={leg1Base.y} angle={0} legDir={-1} />
     </g>
   );
 };
@@ -375,11 +390,7 @@ const drawStartToTop = (cell) => {
       <path d={p} />
       <circle cx={cell.middleX} cy={cell.middleY} r={10} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
-      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${90})`}>
-        <circle cx={0} cy={0} r={3} />
-        <line x1={0} y1={0} x2={0} y2={15} />
-        <line x1={0} y1={0} x2={0} y2={-15} />
-      </g>
+      <LegPair x={leg1Base.x} y={leg1Base.y} angle={90} legDir={-1} />
     </g>
   );
 };
@@ -397,11 +408,7 @@ const drawStartToBottom = (cell) => {
       <path d={p} />
       <circle cx={cell.middleX} cy={cell.middleY} r={10} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
-      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${90})`}>
-        <circle cx={0} cy={0} r={3} />
-        <line x1={0} y1={0} x2={0} y2={15} />
-        <line x1={0} y1={0} x2={0} y2={-15} />
-      </g>
+      <LegPair x={leg1Base.x} y={leg1Base.y} angle={90} />
     </g>
   );
 };
@@ -422,11 +429,7 @@ const drawTopToEnd = (cell) => {
       <path d={p} />,
       <circle cx={cell.middleX} cy={cell.middleY} r={5} />,
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
-      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${90})`}>
-        <circle cx={0} cy={0} r={3} />
-        <line x1={0} y1={0} x2={0} y2={15} />
-        <line x1={0} y1={0} x2={0} y2={-15} />
-      </g>
+      <LegPair x={leg1Base.x} y={leg1Base.y} angle={90} />
     </g>
   );
 };
@@ -444,11 +447,7 @@ const drawLeftToEnd = (cell) => {
       <path d={p} />,
       <circle cx={cell.middleX} cy={cell.middleY} r={5} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
-      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${0})`}>
-        <circle cx={0} cy={0} r={3} />
-        <line x1={0} y1={0} x2={0} y2={15} />
-        <line x1={0} y1={0} x2={0} y2={-15} />
-      </g>
+      <LegPair x={leg1Base.x} y={leg1Base.y} angle={0} />
     </g>
   );
 };
@@ -466,11 +465,7 @@ const drawRightToEnd = (cell) => {
       <path d={p} />,
       <circle cx={cell.middleX} cy={cell.middleY} r={5} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
-      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${0})`}>
-        <circle cx={0} cy={0} r={3} />
-        <line x1={0} y1={0} x2={0} y2={15} />
-        <line x1={0} y1={0} x2={0} y2={-15} />
-      </g>
+      <LegPair x={leg1Base.x} y={leg1Base.y} angle={0} legDir={-1} />
     </g>
   );
 };
@@ -485,14 +480,48 @@ const drawBottomToEnd = (cell) => {
 
   return (
     <g key={cell.index}>
-      <path d={p} />,
-      <circle cx={cell.middleX} cy={cell.middleY} r={5} />,
+      <path d={p} />
+      <circle cx={cell.middleX} cy={cell.middleY} r={5} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
-      <g transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${90})`}>
-        <circle cx={0} cy={0} r={3} />
-        <line x1={0} y1={0} x2={0} y2={15} />
-        <line x1={0} y1={0} x2={0} y2={-15} />
-      </g>
+      <LegPair x={leg1Base.x} y={leg1Base.y} angle={90} />
+    </g>
+  );
+};
+
+// LEGS
+const LegPair = ({ x, y, angle, legDir = 1 }) => {
+  const legLength = 13;
+  const tipXOffset = 7;
+  const legWithTip = legLength + tipXOffset;
+  const tipSize = tipXOffset * legDir;
+
+  const baseWidth = 3;
+  const baseLength = 3;
+
+  let quad = `M ${0},${baseWidth} `;
+  quad += `C ${0},${legLength} `;
+  quad += ` ${0},${legWithTip} `;
+  quad += ` ${tipSize},${legWithTip} `;
+
+  let quad2 = `M ${0},${-baseWidth} `;
+  quad2 += `C ${0},${-legLength} `;
+  quad2 += ` ${0},${-legWithTip} `;
+  quad2 += ` ${tipSize},${-legWithTip} `;
+
+  return (
+    <g transform={`translate(${x}, ${y}) rotate(${angle})`}>
+      {/* <ellipse cx={0} cy={0} rx={4} ry={2} /> */}
+      {/* <ellipse cx={0} cy={0} rx={2} ry={2} /> */}
+      {/* <ellipse cx={0} cy={0} rx={4} ry={4} /> */}
+      <ellipse cx={0} cy={0} rx={baseLength} ry={baseWidth} />
+      {/* LEG 1 */}
+      <path d={quad} />
+      {/* <line x1={0} y1={0} x2={0} y2={15} /> */}
+      {/* <line x1={0} y1={15} x2={tipSize} y2={18} /> */}
+      {/* LEG 2 */}
+      <path d={quad2} />
+      {/* <line x1={0} y1={0} x2={0} y2={-15} />
+      <line x1={0} y1={-15} x2={tipSize} y2={-18} /> */}
     </g>
   );
 };
@@ -508,6 +537,7 @@ const getCornerSegment = ({
   key,
   showLegs = true,
   angles,
+  legDir,
 }) => {
   let quad = `M ${start.x},${start.y} `;
   quad += `C ${cpt1.x},${cpt1.y} `;
@@ -524,28 +554,24 @@ const getCornerSegment = ({
 
       {showLegs && (
         <>
-          <circle cx={leg1Base.x} cy={leg1Base.y} r={3} />
-          <circle cx={leg2Base.x} cy={leg2Base.y} r={3} />
-          <circle cx={leg3Base.x} cy={leg3Base.y} r={3} />
-          <g
-            transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${angles[0]})`}
-          >
-            <line x1={0} y1={0} x2={0} y2={15} />
-            <line x1={0} y1={0} x2={0} y2={-15} />
-          </g>
-          <g
-            transform={`translate(${leg2Base.x}, ${leg2Base.y}) rotate(${angles[1]})`}
-          >
-            <line x1={0} y1={0} x2={0} y2={15} />
-            <line x1={0} y1={0} x2={0} y2={-15} />
-          </g>
-          <g
-            transform={`translate(${leg3Base.x}, ${leg3Base.y}) rotate(${angles[2]})`}
-          >
-            <line x1={0} y1={0} x2={0} y2={15} />
-            <line x1={0} y1={0} x2={0} y2={-15} />
-          </g>
-          >
+          <LegPair
+            x={leg1Base.x}
+            y={leg1Base.y}
+            angle={angles[0]}
+            legDir={legDir}
+          />
+          <LegPair
+            x={leg2Base.x}
+            y={leg2Base.y}
+            angle={angles[1]}
+            legDir={legDir}
+          />
+          <LegPair
+            x={leg3Base.x}
+            y={leg3Base.y}
+            angle={angles[2]}
+            legDir={legDir}
+          />
         </>
       )}
     </g>
@@ -558,6 +584,7 @@ const getStraightSegment = ({
   key: index,
   showLegs = true,
   angles,
+  legDir,
 }) => {
   let p = `M ${start.x},${start.y} `;
   p += ` L ${end.x},${end.y} `;
@@ -571,27 +598,24 @@ const getStraightSegment = ({
       <path d={p} />
       {showLegs && (
         <>
-          <g
-            transform={`translate(${leg1Base.x}, ${leg1Base.y}) rotate(${angles[0]})`}
-          >
-            <circle cx={0} cy={0} r={3} />
-            <line x1={0} y1={0} x2={0} y2={15} />
-            <line x1={0} y1={0} x2={0} y2={-15} />
-          </g>
-          <g
-            transform={`translate(${leg2Base.x}, ${leg2Base.y}) rotate(${angles[1]})`}
-          >
-            <circle cx={0} cy={0} r={3} />
-            <line x1={0} y1={0} x2={0} y2={15} />
-            <line x1={0} y1={0} x2={0} y2={-15} />
-          </g>
-          <g
-            transform={`translate(${leg3Base.x}, ${leg3Base.y}) rotate(${angles[2]})`}
-          >
-            <circle cx={0} cy={0} r={3} />
-            <line x1={0} y1={0} x2={0} y2={15} />
-            <line x1={0} y1={0} x2={0} y2={-15} />
-          </g>
+          <LegPair
+            x={leg1Base.x}
+            y={leg1Base.y}
+            angle={angles[0]}
+            legDir={legDir}
+          />
+          <LegPair
+            x={leg2Base.x}
+            y={leg2Base.y}
+            angle={angles[1]}
+            legDir={legDir}
+          />
+          <LegPair
+            x={leg3Base.x}
+            y={leg3Base.y}
+            angle={angles[2]}
+            legDir={legDir}
+          />
         </>
       )}
     </g>

@@ -1,0 +1,2251 @@
+<svg id="svg" xmlns="http://www.w3.org/2000/svg" width="500" height="500" fill="none" stroke="red" stroke-width="2" style="border: 1px solid black;">
+  <rect x="0" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <g>
+  <path d="M 475,375  L 475,400 ">
+  </path>
+  <circle cx="475" cy="375" r="10">
+  </circle>
+  <circle cx="475" cy="375" r="2">
+  </circle>
+  <g transform="translate(475, 391.625) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 475,400  L 475,450 ">
+  </path>
+  <g transform="translate(475, 408.25) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(475, 425) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(475, 441.75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 475,450 C 475,466.6666666666667  466.6666666666667,475  450,475 ">
+  </path>
+  <g transform="translate(474.319375, 457.569375) rotate(105)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(468.75, 468.75) rotate(135)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(457.569375, 474.319375) rotate(150)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 450,475 C 433.3333333333333,475  425,466.6666666666667  425,450 ">
+  </path>
+  <g transform="translate(442.430625, 474.319375) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(431.25, 468.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(425.680625, 457.569375) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 425,450  L 425,400 ">
+  </path>
+  <g transform="translate(425, 408.25) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(425, 425) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(425, 441.75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 425,400  L 425,350 ">
+  </path>
+  <g transform="translate(425, 358.25) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(425, 375) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(425, 391.75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 425,350 C 425,333.3333333333333  416.6666666666667,325  400,325 ">
+  </path>
+  <g transform="translate(424.319375, 342.430625) rotate(60)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(418.75, 331.25) rotate(45)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(407.569375, 325.680625) rotate(15)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 400,325  L 350,325 ">
+  </path>
+  <g transform="translate(358.25, 325) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(375, 325) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(391.75, 325) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 350,325 C 333.3333333333333,325  325,333.3333333333333  325,350 ">
+  </path>
+  <g transform="translate(342.430625, 325.680625) rotate(330)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(331.25, 331.25) rotate(315)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(325.680625, 342.430625) rotate(285)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 325,350 C 325,366.6666666666667  333.3333333333333,375  350,375 ">
+  </path>
+  <g transform="translate(325.680625, 357.569375) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(331.25, 368.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(342.430625, 374.319375) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 350,375 C 366.6666666666667,375  375,383.3333333333333  375,400 ">
+  </path>
+  <g transform="translate(357.569375, 375.680625) rotate(15)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(368.75, 381.25) rotate(45)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(374.319375, 392.430625) rotate(60)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 375,400  L 375,450 ">
+  </path>
+  <g transform="translate(375, 408.25) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(375, 425) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(375, 441.75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 375,450 C 375,466.6666666666667  366.6666666666667,475  350,475 ">
+  </path>
+  <g transform="translate(374.319375, 457.569375) rotate(105)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(368.75, 468.75) rotate(135)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(357.569375, 474.319375) rotate(150)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 350,475 C 333.3333333333333,475  325,466.6666666666667  325,450 ">
+  </path>
+  <g transform="translate(342.430625, 474.319375) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(331.25, 468.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(325.680625, 457.569375) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 325,450 C 325,433.3333333333333  316.6666666666667,425  300,425 ">
+  </path>
+  <g transform="translate(324.319375, 442.430625) rotate(60)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(318.75, 431.25) rotate(45)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(307.569375, 425.680625) rotate(15)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 300,425 C 283.3333333333333,425  275,433.3333333333333  275,450 ">
+  </path>
+  <g transform="translate(292.430625, 425.680625) rotate(330)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(281.25, 431.25) rotate(315)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(275.680625, 442.430625) rotate(285)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 275,450 C 275,466.6666666666667  266.6666666666667,475  250,475 ">
+  </path>
+  <g transform="translate(274.319375, 457.569375) rotate(105)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(268.75, 468.75) rotate(135)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(257.569375, 474.319375) rotate(150)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 250,475 C 233.33333333333334,475  225,466.6666666666667  225,450 ">
+  </path>
+  <g transform="translate(242.43062500000002, 474.319375) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(231.25, 468.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(225.68062500000002, 457.569375) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 225,450 C 225,433.3333333333333  216.66666666666666,425  200,425 ">
+  </path>
+  <g transform="translate(224.31937499999998, 442.430625) rotate(60)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(218.75, 431.25) rotate(45)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(207.56937499999998, 425.680625) rotate(15)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,425  L 150,425 ">
+  </path>
+  <g transform="translate(158.25, 425) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(175, 425) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(191.75, 425) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 150,425  L 100,425 ">
+  </path>
+  <g transform="translate(108.25, 425) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(125, 425) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(141.75, 425) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 100,425  L 50,425 ">
+  </path>
+  <g transform="translate(58.25, 425) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(75, 425) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(91.75, 425) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 50,425 C 33.333333333333336,425  25,416.6666666666667  25,400 ">
+  </path>
+  <g transform="translate(42.430625, 424.319375) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(31.250000000000004, 418.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(25.680625, 407.569375) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,400 C 25,383.3333333333333  33.333333333333336,375  50,375 ">
+  </path>
+  <g transform="translate(25.680625, 392.430625) rotate(285)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(31.250000000000004, 381.25) rotate(315)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(42.430625, 375.680625) rotate(330)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 50,375  L 100,375 ">
+  </path>
+  <g transform="translate(58.25, 375) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(75, 375) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(91.75, 375) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 100,375  L 150,375 ">
+  </path>
+  <g transform="translate(108.25, 375) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(125, 375) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(141.75, 375) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 150,375 C 166.66666666666666,375  175,366.6666666666667  175,350 ">
+  </path>
+  <g transform="translate(157.56937499999998, 374.319375) rotate(150)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(168.75, 368.75) rotate(135)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(174.31937499999998, 357.569375) rotate(105)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 175,350 C 175,333.3333333333333  183.33333333333334,325  200,325 ">
+  </path>
+  <g transform="translate(175.68062500000002, 342.430625) rotate(285)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(181.25, 331.25) rotate(315)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(192.43062500000002, 325.680625) rotate(330)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,325 C 216.66666666666666,325  225,333.3333333333333  225,350 ">
+  </path>
+  <g transform="translate(207.56937499999998, 325.680625) rotate(15)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(218.75, 331.25) rotate(45)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(224.31937499999998, 342.430625) rotate(60)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 225,350 C 225,366.6666666666667  233.33333333333334,375  250,375 ">
+  </path>
+  <g transform="translate(225.68062500000002, 357.569375) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(231.25, 368.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(242.43062500000002, 374.319375) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 250,375 C 266.6666666666667,375  275,366.6666666666667  275,350 ">
+  </path>
+  <g transform="translate(257.569375, 374.319375) rotate(150)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(268.75, 368.75) rotate(135)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(274.319375, 357.569375) rotate(105)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 275,350  L 275,300 ">
+  </path>
+  <g transform="translate(275, 308.25) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(275, 325) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(275, 341.75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 275,300 C 275,283.3333333333333  266.6666666666667,275  250,275 ">
+  </path>
+  <g transform="translate(274.319375, 292.430625) rotate(60)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(268.75, 281.25) rotate(45)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(257.569375, 275.680625) rotate(15)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 250,275  L 200,275 ">
+  </path>
+  <g transform="translate(208.25, 275) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(225, 275) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(241.75, 275) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,275 C 183.33333333333334,275  175,266.6666666666667  175,250 ">
+  </path>
+  <g transform="translate(192.43062500000002, 274.319375) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(181.25, 268.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(175.68062500000002, 257.569375) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 175,250 C 175,233.33333333333334  166.66666666666666,225  150,225 ">
+  </path>
+  <g transform="translate(174.31937499999998, 242.43062500000002) rotate(60)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(168.75, 231.25) rotate(45)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(157.56937499999998, 225.68062500000002) rotate(15)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 150,225 C 133.33333333333334,225  125,233.33333333333334  125,250 ">
+  </path>
+  <g transform="translate(142.43062500000002, 225.68062500000002) rotate(330)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(131.25, 231.25) rotate(315)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(125.680625, 242.43062500000002) rotate(285)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 125,250 C 125,266.6666666666667  116.66666666666667,275  100,275 ">
+  </path>
+  <g transform="translate(124.319375, 257.569375) rotate(105)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(118.75, 268.75) rotate(135)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(107.56937500000001, 274.319375) rotate(150)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 100,275  L 50,275 ">
+  </path>
+  <g transform="translate(58.25, 275) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(75, 275) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(91.75, 275) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 50,275 C 33.333333333333336,275  25,266.6666666666667  25,250 ">
+  </path>
+  <g transform="translate(42.430625, 274.319375) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(31.250000000000004, 268.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(25.680625, 257.569375) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,250  L 25,200 ">
+  </path>
+  <g transform="translate(25, 208.25) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(25, 225) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(25, 241.75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,200 C 25,183.33333333333334  33.333333333333336,175  50,175 ">
+  </path>
+  <g transform="translate(25.680625, 192.43062500000002) rotate(285)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(31.250000000000004, 181.25) rotate(315)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(42.430625, 175.68062500000002) rotate(330)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 50,175 C 66.66666666666667,175  75,166.66666666666666  75,150 ">
+  </path>
+  <g transform="translate(57.569375, 174.31937499999998) rotate(150)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(68.75, 168.75) rotate(135)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(74.319375, 157.56937499999998) rotate(105)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 75,150 C 75,133.33333333333334  66.66666666666667,125  50,125 ">
+  </path>
+  <g transform="translate(74.319375, 142.43062500000002) rotate(60)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(68.75, 131.25) rotate(45)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(57.569375, 125.680625) rotate(15)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 50,125 C 33.333333333333336,125  25,116.66666666666667  25,100 ">
+  </path>
+  <g transform="translate(42.430625, 124.319375) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(31.250000000000004, 118.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(25.680625, 107.56937500000001) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,100  L 25,50 ">
+  </path>
+  <g transform="translate(25, 58.25) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(25, 75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(25, 91.75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,50 C 25,33.333333333333336  33.333333333333336,25  50,25 ">
+  </path>
+  <g transform="translate(25.680625, 42.430625) rotate(285)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(31.250000000000004, 31.250000000000004) rotate(315)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(42.430625, 25.680625) rotate(330)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 50,25 C 66.66666666666667,25  75,33.333333333333336  75,50 ">
+  </path>
+  <g transform="translate(57.569375, 25.680625) rotate(15)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(68.75, 31.250000000000004) rotate(45)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(74.319375, 42.430625) rotate(60)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 75,50 C 75,66.66666666666667  83.33333333333334,75  100,75 ">
+  </path>
+  <g transform="translate(75.680625, 57.569375) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(81.25, 68.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(92.430625, 74.319375) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 100,75 C 116.66666666666667,75  125,83.33333333333334  125,100 ">
+  </path>
+  <g transform="translate(107.56937500000001, 75.680625) rotate(15)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(118.75, 81.25) rotate(45)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(124.319375, 92.430625) rotate(60)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 125,100  L 125,150 ">
+  </path>
+  <g transform="translate(125, 108.25) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(125, 125) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(125, 141.75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 125,150 C 125,166.66666666666666  133.33333333333334,175  150,175 ">
+  </path>
+  <g transform="translate(125.680625, 157.56937499999998) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(131.25, 168.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(142.43062500000002, 174.31937499999998) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 150,175 C 166.66666666666666,175  175,166.66666666666666  175,150 ">
+  </path>
+  <g transform="translate(157.56937499999998, 174.31937499999998) rotate(150)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(168.75, 168.75) rotate(135)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(174.31937499999998, 157.56937499999998) rotate(105)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 175,150  L 175,100 ">
+  </path>
+  <g transform="translate(175, 108.25) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(175, 125) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(175, 141.75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 175,100  L 175,50 ">
+  </path>
+  <g transform="translate(175, 58.25) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(175, 75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(175, 91.75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 175,50 C 175,33.333333333333336  183.33333333333334,25  200,25 ">
+  </path>
+  <g transform="translate(175.68062500000002, 42.430625) rotate(285)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(181.25, 31.250000000000004) rotate(315)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(192.43062500000002, 25.680625) rotate(330)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,25 C 216.66666666666666,25  225,33.333333333333336  225,50 ">
+  </path>
+  <g transform="translate(207.56937499999998, 25.680625) rotate(15)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(218.75, 31.250000000000004) rotate(45)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(224.31937499999998, 42.430625) rotate(60)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 225,50  L 225,100 ">
+  </path>
+  <g transform="translate(225, 58.25) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(225, 75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(225, 91.75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 225,100  L 225,150 ">
+  </path>
+  <g transform="translate(225, 108.25) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(225, 125) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(225, 141.75) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 225,150 C 225,166.66666666666666  233.33333333333334,175  250,175 ">
+  </path>
+  <g transform="translate(225.68062500000002, 157.56937499999998) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(231.25, 168.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(242.43062500000002, 174.31937499999998) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 250,175 C 266.6666666666667,175  275,166.66666666666666  275,150 ">
+  </path>
+  <g transform="translate(257.569375, 174.31937499999998) rotate(150)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(268.75, 168.75) rotate(135)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(274.319375, 157.56937499999998) rotate(105)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 275,150 C 275,133.33333333333334  283.3333333333333,125  300,125 ">
+  </path>
+  <g transform="translate(275.680625, 142.43062500000002) rotate(285)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(281.25, 131.25) rotate(315)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(292.430625, 125.680625) rotate(330)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 300,125  L 350,125 ">
+  </path>
+  <g transform="translate(308.25, 125) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(325, 125) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(341.75, 125) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 350,125 C 366.6666666666667,125  375,116.66666666666667  375,100 ">
+  </path>
+  <g transform="translate(357.569375, 124.319375) rotate(150)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(368.75, 118.75) rotate(135)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(374.319375, 107.56937500000001) rotate(105)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 375,100 C 375,83.33333333333334  383.3333333333333,75  400,75 ">
+  </path>
+  <g transform="translate(375.680625, 92.430625) rotate(285)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(381.25, 81.25) rotate(315)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(392.430625, 75.680625) rotate(330)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 400,75  L 450,75 ">
+  </path>
+  <g transform="translate(408.25, 75) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(425, 75) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(441.75, 75) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 450,75 C 466.6666666666667,75  475,66.66666666666667  475,50 ">
+  </path>
+  <g transform="translate(457.569375, 74.319375) rotate(150)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(468.75, 68.75) rotate(135)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(474.319375, 57.569375) rotate(105)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 475,50 C 475,33.333333333333336  466.6666666666667,25  450,25 ">
+  </path>
+  <g transform="translate(474.319375, 42.430625) rotate(60)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(468.75, 31.250000000000004) rotate(45)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(457.569375, 25.680625) rotate(15)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 450,25  L 400,25 ">
+  </path>
+  <g transform="translate(408.25, 25) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(425, 25) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(441.75, 25) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 400,25  L 350,25 ">
+  </path>
+  <g transform="translate(358.25, 25) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(375, 25) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(391.75, 25) rotate(0)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 350,25 C 333.3333333333333,25  325,33.333333333333336  325,50 ">
+  </path>
+  <g transform="translate(342.430625, 25.680625) rotate(330)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(331.25, 31.250000000000004) rotate(315)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(325.680625, 42.430625) rotate(285)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  -5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  -5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 325,50 C 325,66.66666666666667  316.6666666666667,75  300,75 ">
+  </path>
+  <g transform="translate(324.319375, 57.569375) rotate(105)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(318.75, 68.75) rotate(135)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(307.569375, 74.319375) rotate(150)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 300,75 C 283.3333333333333,75  275,66.66666666666667  275,50 ">
+  </path>
+  <g transform="translate(292.430625, 74.319375) rotate(195)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(281.25, 68.75) rotate(225)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  <g transform="translate(275.680625, 57.569375) rotate(240)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 275,50  L 275,25 ">
+  </path>
+  <circle cx="275" cy="25" r="5">
+  </circle>
+  <circle cx="275" cy="25" r="2">
+  </circle>
+  <g transform="translate(275, 41.625) rotate(90)">
+  <circle cx="0" cy="0" r="3">
+  </circle>
+  <path d="M 0,0 C 0,10  0,15  5,15 ">
+  </path>
+  <path d="M 0,0 C 0,-10  0,-15  5,-15 ">
+  </path>
+  </g>
+  </g>
+  </svg>
+  
