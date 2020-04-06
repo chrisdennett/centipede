@@ -44,7 +44,9 @@ const createSegments = (cells) => {
   const paths = [];
   let count = 0;
   let endReached = false;
-  let nextCellIndex = getRandomIntBetween(0, cells.length - 1);
+  const availableCells = cells.filter((cell) => !cell.endedOn);
+  let randomIndex = getRandomIntBetween(0, availableCells.length - 1);
+  let nextCellIndex = availableCells[randomIndex].index;
   let prevCellEndedOn;
 
   while (endReached === false && count < 300000) {
@@ -483,7 +485,7 @@ const drawBottomToEnd = (cell) => {
       <path d={p} />
       <circle cx={cell.middleX} cy={cell.middleY} r={5} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
-      <LegPair x={leg1Base.x} y={leg1Base.y} angle={90} />
+      <LegPair x={leg1Base.x} y={leg1Base.y} angle={90} legDir={-1} />
     </g>
   );
 };

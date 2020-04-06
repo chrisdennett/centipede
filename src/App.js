@@ -3,9 +3,9 @@ import { saveAs } from "file-saver";
 import { useInterval } from "./hooks/useInterval";
 import Centipede from "./Centipede";
 
-export default () => {
+export const App = () => {
   const [doTimer, setDoTimer] = useState(false);
-  const [inTestMode, setInTestMode] = useState(true);
+  const [inTestMode, setInTestMode] = useState(false);
   const [strokeColour, setStrokeColour] = useState("#ccc");
   const cellSize = 50;
   const width = 500;
@@ -27,9 +27,19 @@ export default () => {
 
   const cells = getGridData({ cellSize, width, height });
 
+  const centipedes = [];
+  centipedes.push(
+    <Centipede key={"0"} cells={cells} inTestMode={inTestMode} />,
+    <Centipede key={"1"} cells={cells} inTestMode={inTestMode} />,
+    <Centipede key={"2"} cells={cells} inTestMode={inTestMode} />,
+    <Centipede key={"3"} cells={cells} inTestMode={inTestMode} />,
+    <Centipede key={"4"} cells={cells} inTestMode={inTestMode} />
+  );
+
   return (
     <div>
       <button onClick={save_as_svg}>Save SVG</button>
+      {/* <button onClick={addCentipede}>Add Centipede</button> */}
       <button onClick={toggleTestMode}>
         Switch Test Mode {inTestMode ? "OFF" : "ON"}
       </button>
@@ -60,7 +70,7 @@ export default () => {
           />
         ))}
 
-        <Centipede cells={cells} inTestMode={inTestMode} />
+        {centipedes}
       </svg>
     </div>
   );
