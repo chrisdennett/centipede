@@ -1,0 +1,2803 @@
+<svg id="svg" xmlns="http://www.w3.org/2000/svg" width="500" height="500" fill="none" stroke="red" stroke-width="2" style="border: 1px solid black;">
+  <rect x="0" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="0" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="50" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="100" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="150" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="200" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="250" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="300" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="350" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="400" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="0" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="50" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="100" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="150" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="200" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="250" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="300" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="350" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="400" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <rect x="450" y="450" width="50" height="50" stroke="#ccc">
+  </rect>
+  <g>
+  <path d="M 375,25  L 375,50 ">
+  </path>
+  <circle cx="375" cy="25" r="10">
+  </circle>
+  <circle cx="375" cy="25" r="2">
+  </circle>
+  <g transform="translate(375, 41.625) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 375,50 C 375,66.66666666666667  366.6666666666667,75  350,75 ">
+  </path>
+  <g transform="translate(374.319375, 57.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(368.75, 68.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(357.569375, 74.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 350,75  L 300,75 ">
+  </path>
+  <g transform="translate(308.25, 75) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(325, 75) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(341.75, 75) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 300,75 C 283.3333333333333,75  275,83.33333333333334  275,100 ">
+  </path>
+  <g transform="translate(292.430625, 75.680625) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(281.25, 81.25) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(275.680625, 92.430625) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 275,100 C 275,116.66666666666667  283.3333333333333,125  300,125 ">
+  </path>
+  <g transform="translate(275.680625, 107.56937500000001) rotate(240)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(281.25, 118.75) rotate(225)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(292.430625, 124.319375) rotate(195)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 300,125  L 350,125 ">
+  </path>
+  <g transform="translate(308.25, 125) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(325, 125) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(341.75, 125) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 350,125 C 366.6666666666667,125  375,133.33333333333334  375,150 ">
+  </path>
+  <g transform="translate(357.569375, 125.680625) rotate(15)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(368.75, 131.25) rotate(45)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(374.319375, 142.43062500000002) rotate(60)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 375,150 C 375,166.66666666666666  366.6666666666667,175  350,175 ">
+  </path>
+  <g transform="translate(374.319375, 157.56937499999998) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(368.75, 168.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(357.569375, 174.31937499999998) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 350,175 C 333.3333333333333,175  325,183.33333333333334  325,200 ">
+  </path>
+  <g transform="translate(342.430625, 175.68062500000002) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(331.25, 181.25) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(325.680625, 192.43062500000002) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 325,200 C 325,216.66666666666666  333.3333333333333,225  350,225 ">
+  </path>
+  <g transform="translate(325.680625, 207.56937499999998) rotate(240)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(331.25, 218.75) rotate(225)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(342.430625, 224.31937499999998) rotate(195)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 350,225  L 400,225 ">
+  </path>
+  <g transform="translate(358.25, 225) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(375, 225) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(391.75, 225) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 400,225 C 416.6666666666667,225  425,216.66666666666666  425,200 ">
+  </path>
+  <g transform="translate(407.569375, 224.31937499999998) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(418.75, 218.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(424.319375, 207.56937499999998) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 425,200  L 425,150 ">
+  </path>
+  <g transform="translate(425, 158.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(425, 175) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(425, 191.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 425,150 C 425,133.33333333333334  433.3333333333333,125  450,125 ">
+  </path>
+  <g transform="translate(425.680625, 142.43062500000002) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(431.25, 131.25) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(442.430625, 125.680625) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 450,125 C 466.6666666666667,125  475,133.33333333333334  475,150 ">
+  </path>
+  <g transform="translate(457.569375, 125.680625) rotate(15)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(468.75, 131.25) rotate(45)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(474.319375, 142.43062500000002) rotate(60)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 475,150  L 475,200 ">
+  </path>
+  <g transform="translate(475, 158.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(475, 175) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(475, 191.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 475,200  L 475,250 ">
+  </path>
+  <g transform="translate(475, 208.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(475, 225) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(475, 241.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 475,250  L 475,300 ">
+  </path>
+  <g transform="translate(475, 258.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(475, 275) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(475, 291.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 475,300 C 475,316.6666666666667  466.6666666666667,325  450,325 ">
+  </path>
+  <g transform="translate(474.319375, 307.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(468.75, 318.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(457.569375, 324.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 450,325 C 433.3333333333333,325  425,333.3333333333333  425,350 ">
+  </path>
+  <g transform="translate(442.430625, 325.680625) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(431.25, 331.25) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(425.680625, 342.430625) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 425,350 C 425,366.6666666666667  416.6666666666667,375  400,375 ">
+  </path>
+  <g transform="translate(424.319375, 357.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(418.75, 368.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(407.569375, 374.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 400,375 C 383.3333333333333,375  375,383.3333333333333  375,400 ">
+  </path>
+  <g transform="translate(392.430625, 375.680625) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(381.25, 381.25) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(375.680625, 392.430625) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 375,400  L 375,450 ">
+  </path>
+  <g transform="translate(375, 408.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(375, 425) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(375, 441.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 375,450 C 375,466.6666666666667  366.6666666666667,475  350,475 ">
+  </path>
+  <g transform="translate(374.319375, 457.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(368.75, 468.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(357.569375, 474.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 350,475  L 300,475 ">
+  </path>
+  <g transform="translate(308.25, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(325, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(341.75, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 300,475  L 250,475 ">
+  </path>
+  <g transform="translate(258.25, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(275, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(291.75, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 250,475  L 200,475 ">
+  </path>
+  <g transform="translate(208.25, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(225, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(241.75, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,475  L 150,475 ">
+  </path>
+  <g transform="translate(158.25, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(175, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(191.75, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 150,475  L 100,475 ">
+  </path>
+  <g transform="translate(108.25, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(125, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(141.75, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 100,475  L 50,475 ">
+  </path>
+  <g transform="translate(58.25, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(75, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(91.75, 475) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 50,475 C 33.333333333333336,475  25,466.6666666666667  25,450 ">
+  </path>
+  <g transform="translate(42.430625, 474.319375) rotate(195)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(31.250000000000004, 468.75) rotate(225)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(25.680625, 457.569375) rotate(240)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,450  L 25,400 ">
+  </path>
+  <g transform="translate(25, 408.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(25, 425) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(25, 441.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,400  L 25,350 ">
+  </path>
+  <g transform="translate(25, 358.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(25, 375) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(25, 391.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,350  L 25,300 ">
+  </path>
+  <g transform="translate(25, 308.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(25, 325) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(25, 341.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,300 C 25,283.3333333333333  33.333333333333336,275  50,275 ">
+  </path>
+  <g transform="translate(25.680625, 292.430625) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(31.250000000000004, 281.25) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(42.430625, 275.680625) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 50,275 C 66.66666666666667,275  75,266.6666666666667  75,250 ">
+  </path>
+  <g transform="translate(57.569375, 274.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(68.75, 268.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(74.319375, 257.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 75,250  L 75,200 ">
+  </path>
+  <g transform="translate(75, 208.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(75, 225) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(75, 241.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 75,200  L 75,150 ">
+  </path>
+  <g transform="translate(75, 158.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(75, 175) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(75, 191.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 75,150  L 75,100 ">
+  </path>
+  <g transform="translate(75, 108.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(75, 125) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(75, 141.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 75,100 C 75,83.33333333333334  66.66666666666667,75  50,75 ">
+  </path>
+  <g transform="translate(74.319375, 92.430625) rotate(60)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(68.75, 81.25) rotate(45)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(57.569375, 75.680625) rotate(15)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 50,75 C 33.333333333333336,75  25,66.66666666666667  25,50 ">
+  </path>
+  <g transform="translate(42.430625, 74.319375) rotate(195)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(31.250000000000004, 68.75) rotate(225)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(25.680625, 57.569375) rotate(240)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,50 C 25,33.333333333333336  33.333333333333336,25  50,25 ">
+  </path>
+  <g transform="translate(25.680625, 42.430625) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(31.250000000000004, 31.250000000000004) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(42.430625, 25.680625) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 50,25  L 100,25 ">
+  </path>
+  <g transform="translate(58.25, 25) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(75, 25) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(91.75, 25) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 100,25 C 116.66666666666667,25  125,33.333333333333336  125,50 ">
+  </path>
+  <g transform="translate(107.56937500000001, 25.680625) rotate(15)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(118.75, 31.250000000000004) rotate(45)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(124.319375, 42.430625) rotate(60)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 125,50  L 125,100 ">
+  </path>
+  <g transform="translate(125, 58.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(125, 75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(125, 91.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 125,100  L 125,150 ">
+  </path>
+  <g transform="translate(125, 108.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(125, 125) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(125, 141.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 125,150  L 125,200 ">
+  </path>
+  <g transform="translate(125, 158.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(125, 175) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(125, 191.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 125,200 C 125,216.66666666666666  133.33333333333334,225  150,225 ">
+  </path>
+  <g transform="translate(125.680625, 207.56937499999998) rotate(240)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(131.25, 218.75) rotate(225)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(142.43062500000002, 224.31937499999998) rotate(195)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 150,225  L 200,225 ">
+  </path>
+  <g transform="translate(158.25, 225) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(175, 225) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(191.75, 225) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,225 C 216.66666666666666,225  225,233.33333333333334  225,250 ">
+  </path>
+  <g transform="translate(207.56937499999998, 225.68062500000002) rotate(15)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(218.75, 231.25) rotate(45)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(224.31937499999998, 242.43062500000002) rotate(60)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 225,250 C 225,266.6666666666667  216.66666666666666,275  200,275 ">
+  </path>
+  <g transform="translate(224.31937499999998, 257.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(218.75, 268.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(207.56937499999998, 274.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,275  L 150,275 ">
+  </path>
+  <g transform="translate(158.25, 275) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(175, 275) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(191.75, 275) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 150,275 C 133.33333333333334,275  125,283.3333333333333  125,300 ">
+  </path>
+  <g transform="translate(142.43062500000002, 275.680625) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(131.25, 281.25) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(125.680625, 292.430625) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 125,300  L 125,350 ">
+  </path>
+  <g transform="translate(125, 308.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(125, 325) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(125, 341.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 125,350 C 125,366.6666666666667  116.66666666666667,375  100,375 ">
+  </path>
+  <g transform="translate(124.319375, 357.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(118.75, 368.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(107.56937500000001, 374.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 100,375 C 83.33333333333334,375  75,383.3333333333333  75,400 ">
+  </path>
+  <g transform="translate(92.430625, 375.680625) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(81.25, 381.25) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(75.680625, 392.430625) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 75,400 C 75,416.6666666666667  83.33333333333334,425  100,425 ">
+  </path>
+  <g transform="translate(75.680625, 407.569375) rotate(240)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(81.25, 418.75) rotate(225)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(92.430625, 424.319375) rotate(195)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 100,425  L 150,425 ">
+  </path>
+  <g transform="translate(108.25, 425) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(125, 425) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(141.75, 425) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 150,425 C 166.66666666666666,425  175,416.6666666666667  175,400 ">
+  </path>
+  <g transform="translate(157.56937499999998, 424.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(168.75, 418.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(174.31937499999998, 407.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 175,400 C 175,383.3333333333333  183.33333333333334,375  200,375 ">
+  </path>
+  <g transform="translate(175.68062500000002, 392.430625) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(181.25, 381.25) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(192.43062500000002, 375.680625) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,375 C 216.66666666666666,375  225,383.3333333333333  225,400 ">
+  </path>
+  <g transform="translate(207.56937499999998, 375.680625) rotate(15)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(218.75, 381.25) rotate(45)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(224.31937499999998, 392.430625) rotate(60)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 225,400 C 225,416.6666666666667  233.33333333333334,425  250,425 ">
+  </path>
+  <g transform="translate(225.68062500000002, 407.569375) rotate(240)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(231.25, 418.75) rotate(225)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(242.43062500000002, 424.319375) rotate(195)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 250,425 C 266.6666666666667,425  275,416.6666666666667  275,400 ">
+  </path>
+  <g transform="translate(257.569375, 424.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(268.75, 418.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(274.319375, 407.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 275,400 C 275,383.3333333333333  283.3333333333333,375  300,375 ">
+  </path>
+  <g transform="translate(275.680625, 392.430625) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(281.25, 381.25) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(292.430625, 375.680625) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 300,375 C 316.6666666666667,375  325,383.3333333333333  325,400 ">
+  </path>
+  <g transform="translate(307.569375, 375.680625) rotate(15)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(318.75, 381.25) rotate(45)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(324.319375, 392.430625) rotate(60)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 325,400  L 325,425 ">
+  </path>
+  ,<circle cx="325" cy="425" r="5">
+  </circle>
+  ,<circle cx="325" cy="425" r="2">
+  </circle>
+  <g transform="translate(325, 408.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 175,325  L 200,325 ">
+  </path>
+  <circle cx="175" cy="325" r="10">
+  </circle>
+  <circle cx="175" cy="325" r="2">
+  </circle>
+  <g transform="translate(191.625, 325) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,325  L 250,325 ">
+  </path>
+  <g transform="translate(208.25, 325) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(225, 325) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(241.75, 325) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 250,325 C 266.6666666666667,325  275,316.6666666666667  275,300 ">
+  </path>
+  <g transform="translate(257.569375, 324.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(268.75, 318.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(274.319375, 307.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 275,300  L 275,250 ">
+  </path>
+  <g transform="translate(275, 258.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(275, 275) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(275, 291.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 275,250  L 275,200 ">
+  </path>
+  <g transform="translate(275, 208.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(275, 225) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(275, 241.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 275,200 C 275,183.33333333333334  266.6666666666667,175  250,175 ">
+  </path>
+  <g transform="translate(274.319375, 192.43062500000002) rotate(60)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(268.75, 181.25) rotate(45)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(257.569375, 175.68062500000002) rotate(15)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 250,175  L 200,175 ">
+  </path>
+  <g transform="translate(208.25, 175) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(225, 175) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(241.75, 175) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,175 C 183.33333333333334,175  175,166.66666666666666  175,150 ">
+  </path>
+  <g transform="translate(192.43062500000002, 174.31937499999998) rotate(195)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(181.25, 168.75) rotate(225)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(175.68062500000002, 157.56937499999998) rotate(240)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 175,150 C 175,133.33333333333334  183.33333333333334,125  200,125 ">
+  </path>
+  <g transform="translate(175.68062500000002, 142.43062500000002) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(181.25, 131.25) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(192.43062500000002, 125.680625) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,125 C 216.66666666666666,125  225,116.66666666666667  225,100 ">
+  </path>
+  <g transform="translate(207.56937499999998, 124.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(218.75, 118.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(224.31937499999998, 107.56937500000001) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 225,100 C 225,83.33333333333334  216.66666666666666,75  200,75 ">
+  </path>
+  <g transform="translate(224.31937499999998, 92.430625) rotate(60)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(218.75, 81.25) rotate(45)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(207.56937499999998, 75.680625) rotate(15)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,75 C 183.33333333333334,75  175,66.66666666666667  175,50 ">
+  </path>
+  <g transform="translate(192.43062500000002, 74.319375) rotate(195)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(181.25, 68.75) rotate(225)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(175.68062500000002, 57.569375) rotate(240)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 175,50 C 175,33.333333333333336  183.33333333333334,25  200,25 ">
+  </path>
+  <g transform="translate(175.68062500000002, 42.430625) rotate(285)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(181.25, 31.250000000000004) rotate(315)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(192.43062500000002, 25.680625) rotate(330)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 200,25  L 250,25 ">
+  </path>
+  <g transform="translate(208.25, 25) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(225, 25) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(241.75, 25) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 250,25  L 300,25 ">
+  </path>
+  <g transform="translate(258.25, 25) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(275, 25) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(291.75, 25) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 300,25  L 325,25 ">
+  </path>
+  ,<circle cx="325" cy="25" r="5">
+  </circle>
+  <circle cx="325" cy="25" r="2">
+  </circle>
+  <g transform="translate(308.25, 25) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,125  L 25,150 ">
+  </path>
+  <circle cx="25" cy="125" r="10">
+  </circle>
+  <circle cx="25" cy="125" r="2">
+  </circle>
+  <g transform="translate(25, 141.625) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,150  L 25,200 ">
+  </path>
+  <g transform="translate(25, 158.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(25, 175) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(25, 191.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 25,200  L 25,225 ">
+  </path>
+  ,<circle cx="25" cy="225" r="5">
+  </circle>
+  ,<circle cx="25" cy="225" r="2">
+  </circle>
+  <g transform="translate(25, 208.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 325,275  L 350,275 ">
+  </path>
+  <circle cx="325" cy="275" r="10">
+  </circle>
+  <circle cx="325" cy="275" r="2">
+  </circle>
+  <g transform="translate(341.625, 275) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 350,275 C 366.6666666666667,275  375,283.3333333333333  375,300 ">
+  </path>
+  <g transform="translate(357.569375, 275.680625) rotate(15)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(368.75, 281.25) rotate(45)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(374.319375, 292.430625) rotate(60)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 375,300 C 375,316.6666666666667  366.6666666666667,325  350,325 ">
+  </path>
+  <g transform="translate(374.319375, 307.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(368.75, 318.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(357.569375, 324.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 350,325  L 325,325 ">
+  </path>
+  ,<circle cx="325" cy="325" r="5">
+  </circle>
+  <circle cx="325" cy="325" r="2">
+  </circle>
+  <g transform="translate(341.625, 325) rotate(0)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 475,25  L 475,50 ">
+  </path>
+  <circle cx="475" cy="25" r="10">
+  </circle>
+  <circle cx="475" cy="25" r="2">
+  </circle>
+  <g transform="translate(475, 41.625) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 475,50 C 475,66.66666666666667  466.6666666666667,75  450,75 ">
+  </path>
+  <g transform="translate(474.319375, 57.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(468.75, 68.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(457.569375, 74.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 450,75 C 433.3333333333333,75  425,66.66666666666667  425,50 ">
+  </path>
+  <g transform="translate(442.430625, 74.319375) rotate(195)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(431.25, 68.75) rotate(225)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(425.680625, 57.569375) rotate(240)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 425,50  L 425,25 ">
+  </path>
+  <circle cx="425" cy="25" r="5">
+  </circle>
+  <circle cx="425" cy="25" r="2">
+  </circle>
+  <g transform="translate(425, 41.625) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 475,375  L 475,400 ">
+  </path>
+  <circle cx="475" cy="375" r="10">
+  </circle>
+  <circle cx="475" cy="375" r="2">
+  </circle>
+  <g transform="translate(475, 391.625) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 475,400  L 475,450 ">
+  </path>
+  <g transform="translate(475, 408.25) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(475, 425) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(475, 441.75) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 475,450 C 475,466.6666666666667  466.6666666666667,475  450,475 ">
+  </path>
+  <g transform="translate(474.319375, 457.569375) rotate(105)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(468.75, 468.75) rotate(135)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(457.569375, 474.319375) rotate(150)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 450,475 C 433.3333333333333,475  425,466.6666666666667  425,450 ">
+  </path>
+  <g transform="translate(442.430625, 474.319375) rotate(195)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(431.25, 468.75) rotate(225)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  <g transform="translate(425.680625, 457.569375) rotate(240)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  7,-20 ">
+  </path>
+  </g>
+  </g>
+  <g>
+  <path d="M 425,450  L 425,425 ">
+  </path>
+  <circle cx="425" cy="425" r="5">
+  </circle>
+  <circle cx="425" cy="425" r="2">
+  </circle>
+  <g transform="translate(425, 441.625) rotate(90)">
+  <ellipse cx="0" cy="0" rx="3" ry="3">
+  </ellipse>
+  <path d="M 0,3 C 0,13  0,20  -7,20 ">
+  </path>
+  <path d="M 0,-3 C 0,-13  0,-20  -7,-20 ">
+  </path>
+  </g>
+  </g>
+  </svg>
+  

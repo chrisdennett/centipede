@@ -2,18 +2,23 @@ import React, { useState } from "react";
 import { saveAs } from "file-saver";
 import { useInterval } from "./hooks/useInterval";
 import Centipede from "./Centipede";
+import { CentipedesSVG } from "./CentipedesSVG";
 
 export const App = () => {
+  const [showGrid, setShowGrid] = useState(false);
   const [doTimer, setDoTimer] = useState(false);
   const [inTestMode, setInTestMode] = useState(false);
-  const [strokeColour, setStrokeColour] = useState("#ccc");
+  const [centipedes, setCentipedes] = useState([]);
+  const [cells, setCells] = useState([]);
+
   const cellSize = 50;
-  const width = 500;
-  const height = 500;
+  const width = 1000;
+  const height = 800;
   const svgWidth = width;
   const svgHeight = height;
 
   const toggleTestMode = () => setInTestMode((prev) => !prev);
+  const toggleShowGrid = () => setShowGrid((prev) => !prev);
 
   useInterval(() => {
     if (doTimer) {
@@ -22,24 +27,38 @@ export const App = () => {
   }, 200);
 
   const regenerate = () => {
-    setStrokeColour((prev) => (prev === "#ccc" ? "#cccccd" : "#ccc"));
+    setCells([]);
+    setCentipedes([]);
   };
 
-  const cells = getGridData({ cellSize, width, height });
+  // const cells = getCells({ cellSize, width, height });
+  if (cells.length === 0) setCells(getCells({ cellSize, width, height }));
 
-  const centipedes = [];
-  centipedes.push(
-    <Centipede key={"0"} cells={cells} inTestMode={inTestMode} />,
-    <Centipede key={"1"} cells={cells} inTestMode={inTestMode} />,
-    <Centipede key={"2"} cells={cells} inTestMode={inTestMode} />,
-    <Centipede key={"3"} cells={cells} inTestMode={inTestMode} />,
-    <Centipede key={"4"} cells={cells} inTestMode={inTestMode} />
-  );
+  if (cells.length > 0 && centipedes.length === 0)
+    setCentipedes([
+      <Centipede key={"0"} cells={cells} inTestMode={inTestMode} />,
+    ]);
+
+  const addCentipede = () => {
+    setCentipedes((prevValue) => {
+      return [
+        ...prevValue,
+        <Centipede
+          key={prevValue.length + 1}
+          cells={cells}
+          inTestMode={inTestMode}
+        />,
+      ];
+    });
+  };
 
   return (
     <div>
       <button onClick={save_as_svg}>Save SVG</button>
-      {/* <button onClick={addCentipede}>Add Centipede</button> */}
+      <button onClick={addCentipede}>Add Centipede</button>
+      <button onClick={toggleShowGrid}>
+        {showGrid ? "Hide" : "Show"} Grid
+      </button>
       <button onClick={toggleTestMode}>
         Switch Test Mode {inTestMode ? "OFF" : "ON"}
       </button>
@@ -49,34 +68,23 @@ export const App = () => {
           <button onClick={() => setDoTimer((prev) => !prev)}>Timer</button>
         </>
       )}
-      <svg
-        id="svg"
-        xmlns="http://www.w3.org/2000/svg"
-        style={{ border: "1px solid black" }}
-        width={svgWidth}
-        height={svgHeight}
-        fill={"none"}
-        stroke={"red"}
-        strokeWidth={2}
-      >
-        {cells.map((cell, index) => (
-          <rect
-            key={"grid" + index}
-            x={cell.x}
-            y={cell.y}
-            width={cellSize}
-            height={cellSize}
-            stroke={strokeColour}
+      <div>
+        {cells.length > 0 && centipedes.length > 0 && (
+          <CentipedesSVG
+            svgWidth={svgWidth}
+            svgHeight={svgHeight}
+            cells={cells}
+            centipedes={centipedes}
+            cellSize={cellSize}
+            showGrid={showGrid}
           />
-        ))}
-
-        {centipedes}
-      </svg>
+        )}
+      </div>
     </div>
   );
 };
 
-const getGridData = ({ cellSize, width, height }) => {
+const getCells = ({ cellSize, width, height }) => {
   const cells = [];
   const totalCols = Math.floor(width / cellSize);
   const totalRows = Math.floor(height / cellSize);

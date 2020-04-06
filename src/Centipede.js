@@ -464,7 +464,7 @@ const drawRightToEnd = (cell) => {
 
   return (
     <g key={cell.index}>
-      <path d={p} />,
+      <path d={p} />
       <circle cx={cell.middleX} cy={cell.middleY} r={5} />
       <circle cx={cell.middleX} cy={cell.middleY} r={2} />
       <LegPair x={leg1Base.x} y={leg1Base.y} angle={0} legDir={-1} />
@@ -492,38 +492,41 @@ const drawBottomToEnd = (cell) => {
 
 // LEGS
 const LegPair = ({ x, y, angle, legDir = 1 }) => {
-  const legLength = 13;
+  const legLength = 9;
   const tipXOffset = 7;
   const legWithTip = legLength + tipXOffset;
   const tipSize = tipXOffset * legDir;
 
-  const baseWidth = 3;
-  const baseLength = 3;
+  const baseThickness = 5;
+  const baseLength = 8;
+  const letStartOffset = baseLength / 2;
 
-  let quad = `M ${0},${baseWidth} `;
+  let quad = `M ${0},${letStartOffset} `;
   quad += `C ${0},${legLength} `;
   quad += ` ${0},${legWithTip} `;
   quad += ` ${tipSize},${legWithTip} `;
 
-  let quad2 = `M ${0},${-baseWidth} `;
+  let quad2 = `M ${0},${-letStartOffset} `;
   quad2 += `C ${0},${-legLength} `;
   quad2 += ` ${0},${-legWithTip} `;
   quad2 += ` ${tipSize},${-legWithTip} `;
 
   return (
     <g transform={`translate(${x}, ${y}) rotate(${angle})`}>
-      {/* <ellipse cx={0} cy={0} rx={4} ry={2} /> */}
-      {/* <ellipse cx={0} cy={0} rx={2} ry={2} /> */}
-      {/* <ellipse cx={0} cy={0} rx={4} ry={4} /> */}
-      <ellipse cx={0} cy={0} rx={baseLength} ry={baseWidth} />
+      <rect
+        fill={"none"}
+        x={-baseThickness / 2}
+        y={-baseLength / 2}
+        width={baseThickness}
+        height={baseLength}
+        rx="3"
+      />
+      {/* <ellipse cx={0} cy={0} rx={baseLength} ry={baseThickness} /> */}
+
       {/* LEG 1 */}
       <path d={quad} />
-      {/* <line x1={0} y1={0} x2={0} y2={15} /> */}
-      {/* <line x1={0} y1={15} x2={tipSize} y2={18} /> */}
       {/* LEG 2 */}
       <path d={quad2} />
-      {/* <line x1={0} y1={0} x2={0} y2={-15} />
-      <line x1={0} y1={-15} x2={tipSize} y2={-18} /> */}
     </g>
   );
 };
