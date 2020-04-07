@@ -152,14 +152,22 @@ const drawSegment = ({ cell, from, to }) => {
   return s;
 };
 
-// From LEFT
-const drawLeftToRight = (cell) => {
-  const { index, middleY, rightX, x } = cell;
-  const start = { x: x, y: middleY };
-  const end = { x: rightX, y: middleY };
+// STARTS
+const drawStartToLeft = (cell) => <Head cell={cell} angle={0} />;
+const drawStartToTop = (cell) => <Head cell={cell} angle={90} />;
+const drawStartToRight = (cell) => <Head cell={cell} angle={180} />;
+const drawStartToBottom = (cell) => <Head cell={cell} angle={270} />;
+// ENDS
+const drawLeftToEnd = (cell) => <Tail cell={cell} angle={0} />;
+const drawTopToEnd = (cell) => <Tail cell={cell} angle={90} />;
+const drawRightToEnd = (cell) => <Tail cell={cell} angle={180} />;
+const drawBottomToEnd = (cell) => <Tail cell={cell} angle={270} />;
+// STRAIGHTS
+const drawLeftToRight = (cell) => <StraightSegment cell={cell} angle={0} />;
+const drawTopToBottom = (cell) => <StraightSegment cell={cell} angle={90} />;
+const drawRightToLeft = (cell) => <StraightSegment cell={cell} angle={180} />;
+const drawBottomToTop = (cell) => <StraightSegment cell={cell} angle={270} />;
 
-  return getStraightSegment({ start, end, key: index, angles: [0, 0, 0] });
-};
 const drawLeftToBottom = (cell) => {
   const { x, middleY, middleX, bottomY, thirdX, twoThirdY } = cell;
 
@@ -192,13 +200,6 @@ const drawLeftToTop = (cell) => {
 };
 
 // FROM TOP
-const drawTopToBottom = (cell) => {
-  const { index, y, middleX, bottomY } = cell;
-  const start = { x: middleX, y: y };
-  const end = { x: middleX, y: bottomY };
-
-  return getStraightSegment({ start, end, key: index, angles: [90, 90, 90] });
-};
 const drawTopToLeft = (cell) => {
   const { x, y, middleY, middleX, thirdX, thirdY } = cell;
 
@@ -257,19 +258,7 @@ const drawRightToBottom = (cell) => {
     legDir: -1,
   });
 };
-const drawRightToLeft = (cell) => {
-  const { index, middleY, rightX, x } = cell;
-  const start = { x: rightX, y: middleY };
-  const end = { x: x, y: middleY };
 
-  return getStraightSegment({
-    start,
-    end,
-    key: index,
-    angles: [0, 0, 0],
-    legDir: -1,
-  });
-};
 const drawRightToTop = (cell) => {
   const { y, middleY, middleX, thirdY, twoThirdX, rightX } = cell;
 
@@ -327,31 +316,6 @@ const drawBottomToLeft = (cell) => {
     legDir: -1,
   });
 };
-const drawBottomToTop = (cell) => {
-  const { index, y, middleX, bottomY } = cell;
-  const start = { x: middleX, y: bottomY };
-  const end = { x: middleX, y: y };
-
-  return getStraightSegment({
-    start,
-    end,
-    key: index,
-    angles: [90, 90, 90],
-    legDir: -1,
-  });
-};
-
-// STARTS
-const drawStartToLeft = (cell) => <Head cell={cell} angle={0} />;
-const drawStartToTop = (cell) => <Head cell={cell} angle={90} />;
-const drawStartToRight = (cell) => <Head cell={cell} angle={180} />;
-const drawStartToBottom = (cell) => <Head cell={cell} angle={270} />;
-
-// ENDS
-const drawLeftToEnd = (cell) => <Tail cell={cell} angle={0} />;
-const drawTopToEnd = (cell) => <Tail cell={cell} angle={90} />;
-const drawRightToEnd = (cell) => <Tail cell={cell} angle={180} />;
-const drawBottomToEnd = (cell) => <Tail cell={cell} angle={270} />;
 
 // TAIL
 const Tail = ({ cell, angle }) => {
@@ -570,6 +534,54 @@ const getCornerSegment = ({
     <g key={key}>
       <path d={quad} />
 
+      {showLegs && (
+        <>
+          <LegPair
+            x={leg1Base.x}
+            y={leg1Base.y}
+            angle={angles[0]}
+            legDir={legDir}
+          />
+          <LegPair
+            x={leg2Base.x}
+            y={leg2Base.y}
+            angle={angles[1]}
+            legDir={legDir}
+          />
+          <LegPair
+            x={leg3Base.x}
+            y={leg3Base.y}
+            angle={angles[2]}
+            legDir={legDir}
+          />
+        </>
+      )}
+    </g>
+  );
+};
+
+const StraightSegment = ({ cell, angle }) => {
+  const { cellSize, index, middleX, middleY } = cell;
+  const halfCellSize = cellSize / 2;
+  const start = { x: 0, y: halfCellSize };
+  const end = { x: cellSize, y: halfCellSize };
+
+  let p = `M ${start.x},${start.y} `;
+  p += ` L ${end.x},${end.y} `;
+
+  const leg1Base = getPointOnStraight({ dist: 0.165, start, end });
+  const leg2Base = getPointOnStraight({ dist: 0.5, start, end });
+  const leg3Base = getPointOnStraight({ dist: 0.835, start, end });
+  const angles = [0, 0, 0];
+  const legDir = 1;
+  const showLegs = true;
+
+  return (
+    <g
+      key={index}
+      transform={`translate(${middleX} ${middleY}) rotate(${angle}) translate(${-halfCellSize} ${-halfCellSize})`}
+    >
+      <path d={p} />
       {showLegs && (
         <>
           <LegPair
