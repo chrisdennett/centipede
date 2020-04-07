@@ -163,159 +163,20 @@ const drawTopToEnd = (cell) => <Tail cell={cell} angle={90} />;
 const drawRightToEnd = (cell) => <Tail cell={cell} angle={180} />;
 const drawBottomToEnd = (cell) => <Tail cell={cell} angle={270} />;
 // STRAIGHTS
-const drawLeftToRight = (cell) => <StraightSegment cell={cell} angle={0} />;
-const drawTopToBottom = (cell) => <StraightSegment cell={cell} angle={90} />;
-const drawRightToLeft = (cell) => <StraightSegment cell={cell} angle={180} />;
-const drawBottomToTop = (cell) => <StraightSegment cell={cell} angle={270} />;
-
-const drawLeftToBottom = (cell) => {
-  const { x, middleY, middleX, bottomY, thirdX, twoThirdY } = cell;
-
-  const start = { x: x, y: middleY };
-  const cpt1 = { x: thirdX, y: middleY };
-  const cpt2 = { x: middleX, y: twoThirdY };
-  const end = { x: middleX, y: bottomY };
-  const angles = [15, 45, 60];
-
-  return getCornerSegment({ start, cpt1, cpt2, end, angles, key: cell.index });
-};
-const drawLeftToTop = (cell) => {
-  const { x, y, middleY, middleX, thirdX, thirdY } = cell;
-
-  const start = { x: x, y: middleY };
-  const cpt1 = { x: thirdX, y: middleY };
-  const cpt2 = { x: middleX, y: thirdY };
-  const end = { x: middleX, y: y };
-  const angles = [90 + 60, 90 + 45, 90 + 15];
-
-  return getCornerSegment({
-    start,
-    cpt1,
-    cpt2,
-    end,
-    angles,
-    key: cell.index,
-    legDir: -1,
-  });
-};
-
-// FROM TOP
-const drawTopToLeft = (cell) => {
-  const { x, y, middleY, middleX, thirdX, thirdY } = cell;
-
-  const start = { x: middleX, y: y };
-  const cpt1 = { x: middleX, y: thirdY };
-  const cpt2 = { x: thirdX, y: middleY };
-  const end = { x: x, y: middleY };
-  const angles = [90 + 15, 90 + 45, 90 + 60];
-
-  return getCornerSegment({
-    start,
-    cpt1,
-    cpt2,
-    end,
-    angles,
-    key: cell.index,
-  });
-};
-const drawTopToRight = (cell) => {
-  const { y, middleY, middleX, twoThirdX, thirdY, rightX } = cell;
-
-  const start = { x: middleX, y: y };
-  const cpt1 = { x: middleX, y: thirdY };
-  const cpt2 = { x: twoThirdX, y: middleY };
-  const end = { x: rightX, y: middleY };
-  const angles = [180 + 60, 180 + 45, 180 + 15];
-
-  return getCornerSegment({
-    start,
-    cpt1,
-    cpt2,
-    end,
-    angles,
-    key: cell.index,
-    legDir: -1,
-  });
-};
-
-// FROM RIGHT
-const drawRightToBottom = (cell) => {
-  const { bottomY, middleY, middleX, twoThirdY, twoThirdX, rightX } = cell;
-
-  const start = { x: rightX, y: middleY };
-  const cpt1 = { x: twoThirdX, y: middleY };
-  const cpt2 = { x: middleX, y: twoThirdY };
-  const end = { x: middleX, y: bottomY };
-  const angles = [270 + 60, 270 + 45, 270 + 15];
-
-  return getCornerSegment({
-    start,
-    cpt1,
-    cpt2,
-    end,
-    angles,
-    key: cell.index,
-    legDir: -1,
-  });
-};
-
-const drawRightToTop = (cell) => {
-  const { y, middleY, middleX, thirdY, twoThirdX, rightX } = cell;
-
-  const start = { x: rightX, y: middleY };
-  const cpt1 = { x: twoThirdX, y: middleY };
-  const cpt2 = { x: middleX, y: thirdY };
-  const end = { x: middleX, y: y };
-  const angles = [180 + 15, 180 + 45, 180 + 60];
-
-  return getCornerSegment({
-    start,
-    cpt1,
-    cpt2,
-    end,
-    angles,
-    key: cell.index,
-  });
-};
-
-// FROM BOTTOM
-const drawBottomToRight = (cell) => {
-  const { bottomY, middleY, middleX, twoThirdY, twoThirdX, rightX } = cell;
-
-  const start = { x: middleX, y: bottomY };
-  const cpt1 = { x: middleX, y: twoThirdY };
-  const cpt2 = { x: twoThirdX, y: middleY };
-  const end = { x: rightX, y: middleY };
-  const angles = [270 + 15, 270 + 45, 270 + 60];
-
-  return getCornerSegment({
-    start,
-    cpt1,
-    cpt2,
-    end,
-    angles,
-    key: cell.index,
-  });
-};
-const drawBottomToLeft = (cell) => {
-  const { x, middleY, middleX, bottomY, thirdX, twoThirdY } = cell;
-
-  const start = { x: middleX, y: bottomY };
-  const cpt1 = { x: middleX, y: twoThirdY };
-  const cpt2 = { x: thirdX, y: middleY };
-  const end = { x: x, y: middleY };
-  const angles = [60, 45, 15];
-
-  return getCornerSegment({
-    start,
-    cpt1,
-    cpt2,
-    end,
-    angles,
-    key: cell.index,
-    legDir: -1,
-  });
-};
+const drawLeftToRight = (cell) => <Straight cell={cell} angle={0} />;
+const drawTopToBottom = (cell) => <Straight cell={cell} angle={90} />;
+const drawRightToLeft = (cell) => <Straight cell={cell} angle={180} />;
+const drawBottomToTop = (cell) => <Straight cell={cell} angle={270} />;
+// CORNERS - ANTI-CLOCKWISE
+const drawBottomToLeft = (cell) => <Corner cell={cell} angle={0} dir={-1} />;
+const drawLeftToTop = (cell) => <Corner cell={cell} angle={90} dir={-1} />;
+const drawTopToRight = (cell) => <Corner cell={cell} angle={180} dir={-1} />;
+const drawRightToBottom = (cell) => <Corner cell={cell} angle={270} dir={-1} />;
+// CORNER - CLOCKWISE
+const drawLeftToBottom = (cell) => <Corner cell={cell} angle={0} dir={1} />;
+const drawTopToLeft = (cell) => <Corner cell={cell} angle={90} dir={1} />;
+const drawRightToTop = (cell) => <Corner cell={cell} angle={180} dir={1} />;
+const drawBottomToRight = (cell) => <Corner cell={cell} angle={270} dir={1} />;
 
 // TAIL
 const Tail = ({ cell, angle }) => {
@@ -508,19 +369,23 @@ const LegPair = ({ x, y, angle, legDir = 1 }) => {
   );
 };
 
-//
-// KEY SEGMENT METHODS
-//
-const getCornerSegment = ({
-  start,
-  end,
-  cpt1,
-  cpt2,
-  key,
-  showLegs = true,
-  angles,
-  legDir,
-}) => {
+// CORNER
+const Corner = ({ cell, angle, dir = 1 }) => {
+  const { cellSize, index, middleX, middleY } = cell;
+
+  const halfCellSize = cellSize / 2;
+  const thirdCellSize = cellSize / 3;
+  const twoThirdsCellSize = thirdCellSize * 2;
+
+  const start = { x: 0, y: halfCellSize };
+  const cpt1 = { x: thirdCellSize, y: halfCellSize };
+  const cpt2 = { x: halfCellSize, y: twoThirdsCellSize };
+  const end = { x: halfCellSize, y: cellSize };
+  const angles = [15, 45, 60];
+
+  const showLegs = true;
+  const legDir = dir;
+
   let quad = `M ${start.x},${start.y} `;
   quad += `C ${cpt1.x},${cpt1.y} `;
   quad += ` ${cpt2.x},${cpt2.y} `;
@@ -531,7 +396,10 @@ const getCornerSegment = ({
   const leg3Base = getPointOnCurve({ dist: 0.835, start, end, cpt1, cpt2 });
 
   return (
-    <g key={key}>
+    <g
+      key={index}
+      transform={`translate(${middleX} ${middleY}) rotate(${angle}) translate(${-halfCellSize} ${-halfCellSize})`}
+    >
       <path d={quad} />
 
       {showLegs && (
@@ -560,7 +428,8 @@ const getCornerSegment = ({
   );
 };
 
-const StraightSegment = ({ cell, angle }) => {
+// STRAIGHT
+const Straight = ({ cell, angle }) => {
   const { cellSize, index, middleX, middleY } = cell;
   const halfCellSize = cellSize / 2;
   const start = { x: 0, y: halfCellSize };
@@ -581,50 +450,6 @@ const StraightSegment = ({ cell, angle }) => {
       key={index}
       transform={`translate(${middleX} ${middleY}) rotate(${angle}) translate(${-halfCellSize} ${-halfCellSize})`}
     >
-      <path d={p} />
-      {showLegs && (
-        <>
-          <LegPair
-            x={leg1Base.x}
-            y={leg1Base.y}
-            angle={angles[0]}
-            legDir={legDir}
-          />
-          <LegPair
-            x={leg2Base.x}
-            y={leg2Base.y}
-            angle={angles[1]}
-            legDir={legDir}
-          />
-          <LegPair
-            x={leg3Base.x}
-            y={leg3Base.y}
-            angle={angles[2]}
-            legDir={legDir}
-          />
-        </>
-      )}
-    </g>
-  );
-};
-
-const getStraightSegment = ({
-  start,
-  end,
-  key: index,
-  showLegs = true,
-  angles,
-  legDir,
-}) => {
-  let p = `M ${start.x},${start.y} `;
-  p += ` L ${end.x},${end.y} `;
-
-  const leg1Base = getPointOnStraight({ dist: 0.165, start, end });
-  const leg2Base = getPointOnStraight({ dist: 0.5, start, end });
-  const leg3Base = getPointOnStraight({ dist: 0.835, start, end });
-
-  return (
-    <g key={index}>
       <path d={p} />
       {showLegs && (
         <>
