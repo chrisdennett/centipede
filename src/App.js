@@ -12,8 +12,8 @@ export const App = () => {
   const [cells, setCells] = useState([]);
 
   const cellSize = 50;
-  const width = 1000;
-  const height = 800;
+  const width = 500;
+  const height = 500;
   const svgWidth = width;
   const svgHeight = height;
 
