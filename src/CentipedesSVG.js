@@ -18,16 +18,17 @@ export const CentipedesSVG = ({
       stroke={"red"}
       strokeWidth={2}
     >
-      {cells.map((cell, index) => (
-        <rect
-          key={"grid" + index}
-          x={cell.x}
-          y={cell.y}
-          width={cellSize}
-          height={cellSize}
-          stroke={showGrid ? "#ccc" : "none"}
-        />
-      ))}
+      {showGrid &&
+        cells.map((cell, index) => (
+          <rect
+            key={"grid" + index}
+            x={cell.x}
+            y={cell.y}
+            width={cellSize}
+            height={cellSize}
+            stroke={"#ccc"}
+          />
+        ))}
 
       {centipedes}
     </svg>
