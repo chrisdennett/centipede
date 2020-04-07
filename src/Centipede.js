@@ -342,63 +342,10 @@ const drawBottomToTop = (cell) => {
 };
 
 // STARTS
-const drawStartToRight = (cell) => {
-  return <Head cell={cell} />;
-};
-const drawStartToLeft = (cell) => {
-  let p = `M ${cell.middleMiddle} `;
-  p += ` L ${cell.leftMiddle} `;
-
-  const { middleX, middleY, x } = cell;
-  const start = { x: middleX, y: middleY };
-  const end = { x: x, y: middleY };
-  const leg1Base = getPointOnStraight({ dist: 0.165 * 2, start, end });
-
-  return (
-    <g key={cell.index}>
-      <path d={p} />
-      <circle cx={cell.middleX} cy={cell.middleY} r={10} />
-      <circle cx={cell.middleX} cy={cell.middleY} r={2} />
-      <LegPair x={leg1Base.x} y={leg1Base.y} angle={0} legDir={-1} />
-    </g>
-  );
-};
-const drawStartToTop = (cell) => {
-  let p = `M ${cell.middleMiddle} `;
-  p += ` L ${cell.topMiddle} `;
-
-  const { middleX, middleY, y } = cell;
-  const start = { x: middleX, y: middleY };
-  const end = { x: middleX, y: y };
-  const leg1Base = getPointOnStraight({ dist: 0.165 * 2, start, end });
-
-  return (
-    <g key={cell.index}>
-      <path d={p} />
-      <circle cx={cell.middleX} cy={cell.middleY} r={10} />
-      <circle cx={cell.middleX} cy={cell.middleY} r={2} />
-      <LegPair x={leg1Base.x} y={leg1Base.y} angle={90} legDir={-1} />
-    </g>
-  );
-};
-const drawStartToBottom = (cell) => {
-  let p = `M ${cell.middleMiddle} `;
-  p += ` L ${cell.bottomMiddle} `;
-
-  const { middleX, middleY, bottomY } = cell;
-  const start = { x: middleX, y: middleY };
-  const end = { x: middleX, y: bottomY };
-  const leg1Base = getPointOnStraight({ dist: 0.165 + 0.5, start, end });
-
-  return (
-    <g key={cell.index}>
-      <path d={p} />
-      <circle cx={cell.middleX} cy={cell.middleY} r={10} />
-      <circle cx={cell.middleX} cy={cell.middleY} r={2} />
-      <LegPair x={leg1Base.x} y={leg1Base.y} angle={90} />
-    </g>
-  );
-};
+const drawStartToLeft = (cell) => <Head cell={cell} angle={0} />;
+const drawStartToTop = (cell) => <Head cell={cell} angle={90} />;
+const drawStartToRight = (cell) => <Head cell={cell} angle={180} />;
+const drawStartToBottom = (cell) => <Head cell={cell} angle={270} />;
 
 // ENDS
 const drawTopToEnd = (cell) => {
@@ -475,34 +422,15 @@ const drawBottomToEnd = (cell) => {
   );
 };
 
-// HEAD
-// const drawHead = ({ key, lineStart, lineEnd, legDist, legAngle, legDir }) => {
-//   let p = `M ${lineStart.x},${lineStart.y} `;
-//   p += ` L ${lineEnd.x},${lineEnd.y} `;
+const Head = ({ cell, angle }) => {
+  const { index, middleY, middleX, cellSize } = cell;
+  const halfCellSize = cellSize / 2;
+  const lineStart = { x: 0, y: halfCellSize };
+  const lineEnd = { x: halfCellSize, y: halfCellSize };
 
-//   const leg1Base = getPointOnStraight({
-//     dist: legDist,
-//     start: lineStart,
-//     end: lineEnd,
-//   });
-
-//   return (
-//     <g key={key}>
-//       <path d={p} />
-//       <HeadShape pos={lineStart} headWidth={20} headHeight={35} />
-//       <LegPair x={leg1Base.x} y={leg1Base.y} angle={legAngle} legDir={legDir} />
-//     </g>
-//   );
-// };
-
-const Head = ({ cell }) => {
-  const { index, middleX, middleY, rightX } = cell;
-  const lineStart = { x: middleX, y: middleY };
-  const lineEnd = { x: rightX, y: middleY };
-
-  const legDist = 0.165 + 0.5;
+  const legDist = 0.165 * 2;
   const legAngle = 0;
-  const legDir = 1;
+  const legDir = -1;
 
   let p = `M ${lineStart.x},${lineStart.y} `;
   p += ` L ${lineEnd.x},${lineEnd.y} `;
@@ -514,25 +442,35 @@ const Head = ({ cell }) => {
   });
 
   return (
-    <g key={index}>
-      <path d={p} />
-      <HeadShape pos={lineStart} headWidth={20} headHeight={35} />
-      <LegPair x={leg1Base.x} y={leg1Base.y} angle={legAngle} legDir={legDir} />
+    <g
+      key={index}
+      transform={`translate(${middleX} ${middleY}) rotate(${angle}) translate(${-halfCellSize} ${-halfCellSize})`}
+    >
+      <g>
+        <path d={p} />
+        <HeadShape pos={lineEnd} headWidth={20} headHeight={25} />
+        <LegPair
+          x={leg1Base.x}
+          y={leg1Base.y}
+          angle={legAngle}
+          legDir={legDir}
+        />
+      </g>
     </g>
   );
 };
 const HeadShape = ({ pos, headWidth, headHeight }) => {
-  const pt1 = { x: 0, y: headHeight / 2 };
-  const pt2 = { x: headWidth, y: 0 };
-  const pt3 = { x: headWidth, y: headHeight };
+  const pt1 = { x: headWidth, y: headHeight / 2 };
+  const pt2 = { x: 0, y: 0 };
+  const pt3 = { x: 0, y: headHeight };
   const cptOffset = headHeight / 4;
 
-  const cpt1a = { x: 0, y: cptOffset };
-  const cpt2a = { x: headWidth - cptOffset, y: 0 };
-  const cpt2b = { x: headWidth + cptOffset, y: 0 };
-  const cpt3a = { x: headWidth + cptOffset, y: headHeight };
-  const cpt3b = { x: headWidth - cptOffset, y: headHeight };
-  const cpt1b = { x: 0, y: cptOffset + headHeight / 2 };
+  const cpt1a = { x: headWidth, y: cptOffset };
+  const cpt2a = { x: 0 + cptOffset, y: 0 };
+  const cpt2b = { x: 0 - cptOffset, y: 0 };
+  const cpt3a = { x: 0 - cptOffset, y: headHeight };
+  const cpt3b = { x: 0 + cptOffset, y: headHeight };
+  const cpt1b = { x: headWidth, y: cptOffset + headHeight / 2 };
 
   let path = "";
   path += `M ${pt1.x},${pt1.y} `;
@@ -550,7 +488,7 @@ const HeadShape = ({ pos, headWidth, headHeight }) => {
     <g transform={`translate(${pos.x} ${pos.y})`}>
       <circle cx={0} cy={0} r={4} />
       <circle cx={0} cy={0} r={2} />
-      <g transform={`translate(${-headWidth / 1.5} ${-headHeight / 2})`}>
+      <g transform={`translate(${-headWidth / 4} ${-headHeight / 2})`}>
         <path d={path} stroke={"black"} fill={"none"} />
       </g>
     </g>
