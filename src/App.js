@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { saveAs } from "file-saver";
 import { useInterval } from "./hooks/useInterval";
-import Centipede from "./Centipede";
+import { Centipede } from "./Centipede";
 import { CentipedesSVG } from "./CentipedesSVG";
 
 export const App = () => {
@@ -12,8 +12,8 @@ export const App = () => {
   const [cells, setCells] = useState([]);
 
   const cellSize = 50;
-  const width = 1000;
-  const height = 1200;
+  const width = 800;
+  const height = 800;
   const svgWidth = width;
   const svgHeight = height;
 

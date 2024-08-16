@@ -1,6 +1,6 @@
 import React from "react";
 
-const Centipede = ({ cells, inTestMode = true }) => {
+export const Centipede = ({ cells, inTestMode = true }) => {
   const segments = inTestMode
     ? createTestSegments(cells)
     : createSegments(cells);
@@ -8,7 +8,7 @@ const Centipede = ({ cells, inTestMode = true }) => {
   return <>{segments}</>;
 };
 
-export default Centipede;
+export const AllSegments = () => {};
 
 const createTestSegments = (cells) => {
   let cellParts = [];
